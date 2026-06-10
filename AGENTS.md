@@ -8,6 +8,7 @@ This repository is optimized for AI-agent research routing across Apple platform
 2. Read `agent-router.json` if you need machine-readable routing.
 3. Read `agent-corpus/QUESTION_ROUTING.md` if you need natural-language routing guidance.
 4. Read `agent-corpus/COVERAGE_STATUS.md` before making strong claims.
+5. Read `ROADMAP.md`, `docs/VISION.md`, and `docs/AGENT_HANDOFF.md` before changing corpus direction.
 
 ## Retrieval Rules
 

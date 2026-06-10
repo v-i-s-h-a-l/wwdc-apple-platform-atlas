@@ -14,6 +14,9 @@ This repository is the Apple/WWDC corpus implementation. The reusable protocol, 
 - `agent-corpus/QUESTION_ROUTING.md`: how to route common question types.
 - `agent-corpus/RESEARCH_QUEUE.md`: deep-research priority map.
 - `agent-corpus/COVERAGE_STATUS.md`: what is deeply researched versus metadata-only.
+- `ROADMAP.md`: direction for corpus maintenance and improvement.
+- `docs/VISION.md`: long-term corpus vision.
+- `docs/AGENT_HANDOFF.md`: context for a fresh agent entering the repository.
 - `index.html`: public human reader for GitHub Pages.
 
 ## Corpus Goal

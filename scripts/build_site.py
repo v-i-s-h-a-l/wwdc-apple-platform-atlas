@@ -19,9 +19,10 @@ ALLOWLIST = [
     "README.md",
     "CONSTITUTION.md",
     "AGENTS.md",
+    "ROADMAP.md",
     "agent-corpus",
     "data/session-atlas.json",
-    "docs/workflow",
+    "docs",
     "templates/research-project.md",
 ]
 
