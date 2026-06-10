@@ -1,0 +1,101 @@
+# Agentic Research Router
+
+> Static AI-agent-first research router for Apple WWDC platform research.
+
+Use this file as the smallest entry point. Do not load the full corpus first.
+
+## Routing Contract
+
+1. For capability questions, use the direct Feature Routes below first.
+2. For video-specific questions, open `agent-corpus/sessions/`.
+3. For broad Apple topic questions, open `agent-corpus/topics/`.
+4. For confidence, open `agent-corpus/COVERAGE_STATUS.md`.
+5. For research gaps, open `agent-corpus/RESEARCH_QUEUE.md`.
+6. For ambiguous concept/API questions, open `agent-router.json` and use `hotConceptRoutes`.
+7. For exact API signatures, follow Apple documentation links from the relevant page.
+
+## Coverage
+
+- Sessions: `211`
+- WWDC26 sessions: `135`
+- WWDC25 context sessions: `76`
+- Deep-researched sessions: `86`
+- Full transcript text stored: `0`
+
+## Core Files
+
+- [Machine router](agent-router.json): compact JSON routing graph and hot concept aliases.
+- [Full session lookup](agent-corpus/session-lookup.json): complete session ID/title/path lookup.
+- [Full concept routes](agent-corpus/concept-routes.json): larger concept-to-session lookup.
+- [Agent index](agent-corpus/AGENT_INDEX.md): corpus overview.
+- [Question routing](agent-corpus/QUESTION_ROUTING.md): natural-language routing.
+- [Coverage status](agent-corpus/COVERAGE_STATUS.md): confidence boundaries.
+- [Research queue](agent-corpus/RESEARCH_QUEUE.md): promoted and remaining work.
+- [Public reader](index.html): human-facing reader.
+
+## Feature Routes
+
+- [Foundation Models](agent-corpus/features/foundation-models.md): feature route
+- [Core AI](agent-corpus/features/core-ai.md): feature route
+- [App Intents And Siri](agent-corpus/features/app-intents-siri.md): feature route
+- [Xcode Agents And Developer Workflow](agent-corpus/features/xcode-agents.md): feature route
+- [SwiftUI And UI Frameworks](agent-corpus/features/swiftui-ui-frameworks.md): feature route
+- [SwiftData](agent-corpus/features/swiftdata.md): feature route
+- [Evaluations](agent-corpus/features/evaluations.md): feature route
+- [Agentic Security](agent-corpus/features/agentic-security.md): feature route
+- [Visual Intelligence And Image Understanding](agent-corpus/features/visual-intelligence.md): feature route
+- [MLX And Local Models](agent-corpus/features/mlx-local-models.md): feature route
+- [Performance And Observability](agent-corpus/features/performance-observability.md): feature route
+- [Accessibility](agent-corpus/features/accessibility.md): feature route
+
+## Topic Routes
+
+- [AI & Machine Learning](agent-corpus/topics/ai-machine-learning.md): topic route
+- [Accessibility & Inclusion](agent-corpus/topics/accessibility-inclusion.md): topic route
+- [App Services](agent-corpus/topics/app-services.md): topic route
+- [App Store, Distribution & Marketing](agent-corpus/topics/app-store-distribution-marketing.md): topic route
+- [Audio & Video](agent-corpus/topics/audio-video.md): topic route
+- [Business & Education](agent-corpus/topics/business-education.md): topic route
+- [Design](agent-corpus/topics/design.md): topic route
+- [Developer Tools](agent-corpus/topics/developer-tools.md): topic route
+- [Essentials](agent-corpus/topics/essentials.md): topic route
+- [Graphics & Games](agent-corpus/topics/graphics-games.md): topic route
+- [Health & Fitness](agent-corpus/topics/health-fitness.md): topic route
+- [Maps & Location](agent-corpus/topics/maps-location.md): topic route
+- [Photos & Camera](agent-corpus/topics/photos-camera.md): topic route
+- [Privacy & Security](agent-corpus/topics/privacy-security.md): topic route
+- [Safari & Web](agent-corpus/topics/safari-web.md): topic route
+- [Spatial Computing](agent-corpus/topics/spatial-computing.md): topic route
+- [Swift](agent-corpus/topics/swift.md): topic route
+- [SwiftUI & UI Frameworks](agent-corpus/topics/swiftui-ui-frameworks.md): topic route
+- [System Services](agent-corpus/topics/system-services.md): topic route
+
+## Priority Deep-Research Routes
+
+- [Explore Distributed Inference And Training With MLX](agent-corpus/sessions/wwdc2026-233-explore-distributed-inference-and-training-with-mlx.md): P1 / App Intelligence
+- [Run Local Agentic AI On The Mac Using MLX](agent-corpus/sessions/wwdc2026-232-run-local-agentic-ai-on-the-mac-using-mlx.md): P0 / App Intelligence
+- [Validate Your App Intents Adoption With AppIntentsTesting](agent-corpus/sessions/wwdc2026-295-validate-your-app-intents-adoption-with-appintentstesting.md): P0 / Developer Workflow
+- [Speedrun Your Game Port With Agentic Coding](agent-corpus/sessions/wwdc2026-357-speedrun-your-game-port-with-agentic-coding.md): P1 / Developer Workflow
+- [Explore Numerical Computing In Swift With MLX](agent-corpus/sessions/wwdc2026-328-explore-numerical-computing-in-swift-with-mlx.md): P1 / App Intelligence
+- [What's New In Shortcuts](agent-corpus/sessions/wwdc2026-310-what-s-new-in-shortcuts.md): P0 / App Intelligence
+- [Discover Generated Subtitles And Subtitle Styles](agent-corpus/sessions/wwdc2026-256-discover-generated-subtitles-and-subtitle-styles.md): P1 / Accessibility And Media
+- [Principles Of Great Design](agent-corpus/sessions/wwdc2026-250-principles-of-great-design.md): P0 / Platform UI
+- [Create Web Extensions For Safari](agent-corpus/sessions/wwdc2026-216-create-web-extensions-for-safari.md): P2 / Safari And Web
+- [Meet The Now Playing Framework](agent-corpus/sessions/wwdc2026-312-meet-the-now-playing-framework.md): P1 / System Frameworks
+- [Prepare Your tvOS Apps For Dynamic Type](agent-corpus/sessions/wwdc2026-221-prepare-your-tvos-apps-for-dynamic-type.md): P0 / Platform UI
+- [Build A Responsive Camera App That Launches Quickly](agent-corpus/sessions/wwdc2026-303-build-a-responsive-camera-app-that-launches-quickly.md): P1 / System Frameworks
+- [Learn CSS Grid Lanes](agent-corpus/sessions/wwdc2026-314-learn-css-grid-lanes.md): P2 / Safari And Web
+- [Rediscover The HTML Select Element](agent-corpus/sessions/wwdc2026-315-rediscover-the-html-select-element.md): P2 / Safari And Web
+- [Find And Fix Performance Issues In Your Metal Games](agent-corpus/sessions/wwdc2026-388-find-and-fix-performance-issues-in-your-metal-games.md): P1 / Developer Workflow
+- [Build Real-Time Apps And Services With gRPC And Swift](agent-corpus/sessions/wwdc2026-265-build-real-time-apps-and-services-with-grpc-and-swift.md): P1 / System Frameworks
+- [What's New In Swift](agent-corpus/sessions/wwdc2026-262-what-s-new-in-swift.md): P0 / Developer Workflow
+- [Design Intuitive Search Experiences](agent-corpus/sessions/wwdc2026-292-design-intuitive-search-experiences.md): P0 / Platform UI
+- [Optimize Custom Machine Learning Operations With Metal Tensors](agent-corpus/sessions/wwdc2026-330-optimize-custom-machine-learning-operations-with-metal-tensors.md): P1 / App Intelligence
+- [Enhance Raw Image Processing With Core Image](agent-corpus/sessions/wwdc2026-305-enhance-raw-image-processing-with-core-image.md): P1 / System Frameworks
+- [Get Started With The HTML Model Element](agent-corpus/sessions/wwdc2026-215-get-started-with-the-html-model-element.md): P2 / Safari And Web
+- [Discover Container Machines](agent-corpus/sessions/wwdc2026-389-discover-container-machines.md): P1 / Developer Workflow
+- [Build With The New Apple Foundation Model On Private Cloud Compute](agent-corpus/sessions/wwdc2026-319-build-with-the-new-apple-foundation-model-on-private-cloud-compute.md): P0 / App Intelligence
+
+## Source Policy
+
+Full transcripts are not stored. The builder reads priority transcripts ephemerally and writes derived notes, source URLs, coverage labels, and routing metadata.

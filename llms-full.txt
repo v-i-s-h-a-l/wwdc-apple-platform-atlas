@@ -1,0 +1,62 @@
+# Agentic Research Router Full Context
+
+This compact file is for agents that want one fetch before routing into the corpus.
+
+## Recommended Path
+
+- Read llms.txt.
+- Use direct routes in llms.txt when they match.
+- Use agent-router.json for ambiguous routing or hot concept aliases.
+- Open the narrow feature/topic/session page.
+- Check coverage before making strong claims.
+- Follow Apple source links for exact API details.
+
+## Features
+
+- foundation-models: Foundation Models -> agent-corpus/features/foundation-models.md
+- core-ai: Core AI -> agent-corpus/features/core-ai.md
+- app-intents-siri: App Intents And Siri -> agent-corpus/features/app-intents-siri.md
+- xcode-agents: Xcode Agents And Developer Workflow -> agent-corpus/features/xcode-agents.md
+- swiftui-ui-frameworks: SwiftUI And UI Frameworks -> agent-corpus/features/swiftui-ui-frameworks.md
+- swiftdata: SwiftData -> agent-corpus/features/swiftdata.md
+- evaluations: Evaluations -> agent-corpus/features/evaluations.md
+- agentic-security: Agentic Security -> agent-corpus/features/agentic-security.md
+- visual-intelligence: Visual Intelligence And Image Understanding -> agent-corpus/features/visual-intelligence.md
+- mlx-local-models: MLX And Local Models -> agent-corpus/features/mlx-local-models.md
+- performance-observability: Performance And Observability -> agent-corpus/features/performance-observability.md
+- accessibility: Accessibility -> agent-corpus/features/accessibility.md
+
+## Priority Sessions
+
+- wwdc2026-233: Explore Distributed Inference And Training With MLX -> agent-corpus/sessions/wwdc2026-233-explore-distributed-inference-and-training-with-mlx.md (P1, App Intelligence, deep-researched)
+- wwdc2026-232: Run Local Agentic AI On The Mac Using MLX -> agent-corpus/sessions/wwdc2026-232-run-local-agentic-ai-on-the-mac-using-mlx.md (P0, App Intelligence, deep-researched)
+- wwdc2026-295: Validate Your App Intents Adoption With AppIntentsTesting -> agent-corpus/sessions/wwdc2026-295-validate-your-app-intents-adoption-with-appintentstesting.md (P0, Developer Workflow, deep-researched)
+- wwdc2026-357: Speedrun Your Game Port With Agentic Coding -> agent-corpus/sessions/wwdc2026-357-speedrun-your-game-port-with-agentic-coding.md (P1, Developer Workflow, deep-researched)
+- wwdc2026-328: Explore Numerical Computing In Swift With MLX -> agent-corpus/sessions/wwdc2026-328-explore-numerical-computing-in-swift-with-mlx.md (P1, App Intelligence, deep-researched)
+- wwdc2026-310: What's New In Shortcuts -> agent-corpus/sessions/wwdc2026-310-what-s-new-in-shortcuts.md (P0, App Intelligence, deep-researched)
+- wwdc2026-256: Discover Generated Subtitles And Subtitle Styles -> agent-corpus/sessions/wwdc2026-256-discover-generated-subtitles-and-subtitle-styles.md (P1, Accessibility And Media, deep-researched)
+- wwdc2026-250: Principles Of Great Design -> agent-corpus/sessions/wwdc2026-250-principles-of-great-design.md (P0, Platform UI, deep-researched)
+- wwdc2026-216: Create Web Extensions For Safari -> agent-corpus/sessions/wwdc2026-216-create-web-extensions-for-safari.md (P2, Safari And Web, deep-researched)
+- wwdc2026-312: Meet The Now Playing Framework -> agent-corpus/sessions/wwdc2026-312-meet-the-now-playing-framework.md (P1, System Frameworks, deep-researched)
+- wwdc2026-221: Prepare Your tvOS Apps For Dynamic Type -> agent-corpus/sessions/wwdc2026-221-prepare-your-tvos-apps-for-dynamic-type.md (P0, Platform UI, deep-researched)
+- wwdc2026-303: Build A Responsive Camera App That Launches Quickly -> agent-corpus/sessions/wwdc2026-303-build-a-responsive-camera-app-that-launches-quickly.md (P1, System Frameworks, deep-researched)
+- wwdc2026-314: Learn CSS Grid Lanes -> agent-corpus/sessions/wwdc2026-314-learn-css-grid-lanes.md (P2, Safari And Web, deep-researched)
+- wwdc2026-315: Rediscover The HTML Select Element -> agent-corpus/sessions/wwdc2026-315-rediscover-the-html-select-element.md (P2, Safari And Web, deep-researched)
+- wwdc2026-388: Find And Fix Performance Issues In Your Metal Games -> agent-corpus/sessions/wwdc2026-388-find-and-fix-performance-issues-in-your-metal-games.md (P1, Developer Workflow, deep-researched)
+- wwdc2026-265: Build Real-Time Apps And Services With gRPC And Swift -> agent-corpus/sessions/wwdc2026-265-build-real-time-apps-and-services-with-grpc-and-swift.md (P1, System Frameworks, deep-researched)
+- wwdc2026-262: What's New In Swift -> agent-corpus/sessions/wwdc2026-262-what-s-new-in-swift.md (P0, Developer Workflow, deep-researched)
+- wwdc2026-292: Design Intuitive Search Experiences -> agent-corpus/sessions/wwdc2026-292-design-intuitive-search-experiences.md (P0, Platform UI, deep-researched)
+- wwdc2026-330: Optimize Custom Machine Learning Operations With Metal Tensors -> agent-corpus/sessions/wwdc2026-330-optimize-custom-machine-learning-operations-with-metal-tensors.md (P1, App Intelligence, deep-researched)
+- wwdc2026-305: Enhance Raw Image Processing With Core Image -> agent-corpus/sessions/wwdc2026-305-enhance-raw-image-processing-with-core-image.md (P1, System Frameworks, deep-researched)
+- wwdc2026-215: Get Started With The HTML Model Element -> agent-corpus/sessions/wwdc2026-215-get-started-with-the-html-model-element.md (P2, Safari And Web, deep-researched)
+- wwdc2026-389: Discover Container Machines -> agent-corpus/sessions/wwdc2026-389-discover-container-machines.md (P1, Developer Workflow, deep-researched)
+- wwdc2026-319: Build With The New Apple Foundation Model On Private Cloud Compute -> agent-corpus/sessions/wwdc2026-319-build-with-the-new-apple-foundation-model-on-private-cloud-compute.md (P0, App Intelligence, deep-researched)
+
+## Coverage
+
+{
+  "wwdc26SessionCount": 135,
+  "wwdc25RelevantSessionCount": 76,
+  "totalSessionCount": 211,
+  "transcriptDerivedCount": 86
+}

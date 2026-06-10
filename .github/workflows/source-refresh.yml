@@ -1,0 +1,38 @@
+name: Source Refresh
+
+on:
+  schedule:
+    - cron: "43 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh source-derived artifacts
+        run: |
+          python3 scripts/build_session_atlas.py
+          python3 scripts/generate_markdown_corpus.py
+          python3 scripts/generate_session_atlas_html.py
+          cp session-atlas.html index.html
+          python3 scripts/generate_agent_router.py
+          python3 scripts/validate_public_repo.py
+      - name: Upload refreshed artifacts for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: refreshed-research-artifacts
+          path: |
+            data/session-atlas.json
+            session-atlas.html
+            index.html
+            agent-router.json
+            llms.txt
+            llms-full.txt
+            agent-corpus/

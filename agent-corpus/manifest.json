@@ -1,0 +1,3071 @@
+{
+  "generatedAt": "2026-06-10",
+  "corpusType": "neutral-research-corpus",
+  "publicReader": "../index.html",
+  "sourceData": "../data/session-atlas.json",
+  "coverage": {
+    "wwdc26SessionCount": 135,
+    "wwdc25RelevantSessionCount": 76,
+    "totalSessionCount": 211,
+    "transcriptDerivedCount": 86
+  },
+  "indexes": {
+    "agentIndex": "AGENT_INDEX.md",
+    "questionRouting": "QUESTION_ROUTING.md",
+    "coverageStatus": "COVERAGE_STATUS.md",
+    "researchQueue": "RESEARCH_QUEUE.md",
+    "documentation": "docs/apple-documentation.md",
+    "industryComparison": "comparisons/industry-comparison.md"
+  },
+  "topics": [
+    {
+      "title": "AI & Machine Learning",
+      "path": "topics/ai-machine-learning.md"
+    },
+    {
+      "title": "Accessibility & Inclusion",
+      "path": "topics/accessibility-inclusion.md"
+    },
+    {
+      "title": "App Services",
+      "path": "topics/app-services.md"
+    },
+    {
+      "title": "App Store, Distribution & Marketing",
+      "path": "topics/app-store-distribution-marketing.md"
+    },
+    {
+      "title": "Audio & Video",
+      "path": "topics/audio-video.md"
+    },
+    {
+      "title": "Business & Education",
+      "path": "topics/business-education.md"
+    },
+    {
+      "title": "Design",
+      "path": "topics/design.md"
+    },
+    {
+      "title": "Developer Tools",
+      "path": "topics/developer-tools.md"
+    },
+    {
+      "title": "Essentials",
+      "path": "topics/essentials.md"
+    },
+    {
+      "title": "Graphics & Games",
+      "path": "topics/graphics-games.md"
+    },
+    {
+      "title": "Health & Fitness",
+      "path": "topics/health-fitness.md"
+    },
+    {
+      "title": "Maps & Location",
+      "path": "topics/maps-location.md"
+    },
+    {
+      "title": "Photos & Camera",
+      "path": "topics/photos-camera.md"
+    },
+    {
+      "title": "Privacy & Security",
+      "path": "topics/privacy-security.md"
+    },
+    {
+      "title": "Safari & Web",
+      "path": "topics/safari-web.md"
+    },
+    {
+      "title": "Spatial Computing",
+      "path": "topics/spatial-computing.md"
+    },
+    {
+      "title": "Swift",
+      "path": "topics/swift.md"
+    },
+    {
+      "title": "SwiftUI & UI Frameworks",
+      "path": "topics/swiftui-ui-frameworks.md"
+    },
+    {
+      "title": "System Services",
+      "path": "topics/system-services.md"
+    }
+  ],
+  "features": [
+    {
+      "id": "foundation-models",
+      "title": "Foundation Models",
+      "path": "features/foundation-models.md"
+    },
+    {
+      "id": "core-ai",
+      "title": "Core AI",
+      "path": "features/core-ai.md"
+    },
+    {
+      "id": "app-intents-siri",
+      "title": "App Intents And Siri",
+      "path": "features/app-intents-siri.md"
+    },
+    {
+      "id": "xcode-agents",
+      "title": "Xcode Agents And Developer Workflow",
+      "path": "features/xcode-agents.md"
+    },
+    {
+      "id": "swiftui-ui-frameworks",
+      "title": "SwiftUI And UI Frameworks",
+      "path": "features/swiftui-ui-frameworks.md"
+    },
+    {
+      "id": "swiftdata",
+      "title": "SwiftData",
+      "path": "features/swiftdata.md"
+    },
+    {
+      "id": "evaluations",
+      "title": "Evaluations",
+      "path": "features/evaluations.md"
+    },
+    {
+      "id": "agentic-security",
+      "title": "Agentic Security",
+      "path": "features/agentic-security.md"
+    },
+    {
+      "id": "visual-intelligence",
+      "title": "Visual Intelligence And Image Understanding",
+      "path": "features/visual-intelligence.md"
+    },
+    {
+      "id": "mlx-local-models",
+      "title": "MLX And Local Models",
+      "path": "features/mlx-local-models.md"
+    },
+    {
+      "id": "performance-observability",
+      "title": "Performance And Observability",
+      "path": "features/performance-observability.md"
+    },
+    {
+      "id": "accessibility",
+      "title": "Accessibility",
+      "path": "features/accessibility.md"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "wwdc2026-8011",
+      "year": "2026",
+      "title": "Apple Intelligence Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8011-apple-intelligence-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8011/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-339",
+      "year": "2026",
+      "title": "Bring An LLM Provider To The Foundation Models Framework",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-339-bring-an-llm-provider-to-the-foundation-models-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/339/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-242",
+      "year": "2026",
+      "title": "Build Agentic App Experiences With The Foundation Models Framework",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-242-build-agentic-app-experiences-with-the-foundation-models-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/242/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-334",
+      "year": "2026",
+      "title": "Build AI-Powered Scripts With The FM CLI And Python SDK",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-334-build-ai-powered-scripts-with-the-fm-cli-and-python-sdk.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/334/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-8121",
+      "year": "2026",
+      "title": "Coding Intelligence, Machine Learning & AI Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8121-coding-intelligence-machine-learning-ai-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8121/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-375",
+      "year": "2026",
+      "title": "Create High Quality Images Using Image Playground",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-375-create-high-quality-images-using-image-playground.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/375/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-299",
+      "year": "2026",
+      "title": "Create Robust Evaluations For Agentic Apps",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-299-create-robust-evaluations-for-agentic-apps.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/299/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-243",
+      "year": "2026",
+      "title": "Debug And Profile Agentic App Experiences With Instruments",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-243-debug-and-profile-agentic-app-experiences-with-instruments.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/243/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-325",
+      "year": "2026",
+      "title": "Dive Into Core AI Model Authoring And Optimization",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-325-dive-into-core-ai-model-authoring-and-optimization.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/325/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-233",
+      "year": "2026",
+      "title": "Explore Distributed Inference And Training With MLX",
+      "coverage": "deep-researched",
+      "researchPriority": "P1",
+      "researchWave": "App Intelligence",
+      "path": "sessions/wwdc2026-233-explore-distributed-inference-and-training-with-mlx.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/233/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-335",
+      "year": "2026",
+      "title": "Improve Your Prompts By Hill-Climbing With Evaluations",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-335-improve-your-prompts-by-hill-climbing-with-evaluations.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/335/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-326",
+      "year": "2026",
+      "title": "Integrate On-Device AI Models Into Your App Using Core AI",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-326-integrate-on-device-ai-models-into-your-app-using-core-ai.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/326/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-246",
+      "year": "2026",
+      "title": "LLM Search Using Core Spotlight",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-246-llm-search-using-core-spotlight.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/246/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-8016",
+      "year": "2026",
+      "title": "Machine Learning & AI Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8016-machine-learning-ai-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8016/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-324",
+      "year": "2026",
+      "title": "Meet Core AI",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-324-meet-core-ai.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/324/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-298",
+      "year": "2026",
+      "title": "Meet The Evaluations Framework",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-298-meet-the-evaluations-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/298/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-232",
+      "year": "2026",
+      "title": "Run Local Agentic AI On The Mac Using MLX",
+      "coverage": "deep-researched",
+      "researchPriority": "P0",
+      "researchWave": "App Intelligence",
+      "path": "sessions/wwdc2026-232-run-local-agentic-ai-on-the-mac-using-mlx.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/232/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-295",
+      "year": "2026",
+      "title": "Validate Your App Intents Adoption With AppIntentsTesting",
+      "coverage": "deep-researched",
+      "researchPriority": "P0",
+      "researchWave": "Developer Workflow",
+      "path": "sessions/wwdc2026-295-validate-your-app-intents-adoption-with-appintentstesting.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/295/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-241",
+      "year": "2026",
+      "title": "What's New In The Foundation Models Framework",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-241-what-s-new-in-the-foundation-models-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/241/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-253",
+      "year": "2026",
+      "title": "Meet The Music Understanding Framework",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-253-meet-the-music-understanding-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/253/",
+      "topics": [
+        "AI & Machine Learning",
+        "Audio & Video"
+      ]
+    },
+    {
+      "id": "wwdc2026-213",
+      "year": "2026",
+      "title": "Translate Your App Using Agents In Xcode",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-213-translate-your-app-using-agents-in-xcode.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/213/",
+      "topics": [
+        "AI & Machine Learning",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2026-227",
+      "year": "2026",
+      "title": "Create Ui Prototypes Using Agents In Xcode",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-227-create-ui-prototypes-using-agents-in-xcode.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/227/",
+      "topics": [
+        "AI & Machine Learning",
+        "Developer Tools",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2026-356",
+      "year": "2026",
+      "title": "Bringing Cyberpunk 2077 To Mac",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-356-bringing-cyberpunk-2077-to-mac.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/356/",
+      "topics": [
+        "AI & Machine Learning",
+        "Graphics & Games"
+      ]
+    },
+    {
+      "id": "wwdc2026-359",
+      "year": "2026",
+      "title": "Build Real-Time Neural Rendering Pipelines With Metal",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-359-build-real-time-neural-rendering-pipelines-with-metal.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/359/",
+      "topics": [
+        "AI & Machine Learning",
+        "Graphics & Games"
+      ]
+    },
+    {
+      "id": "wwdc2026-357",
+      "year": "2026",
+      "title": "Speedrun Your Game Port With Agentic Coding",
+      "coverage": "deep-researched",
+      "researchPriority": "P1",
+      "researchWave": "Developer Workflow",
+      "path": "sessions/wwdc2026-357-speedrun-your-game-port-with-agentic-coding.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/357/",
+      "topics": [
+        "AI & Machine Learning",
+        "Graphics & Games"
+      ]
+    },
+    {
+      "id": "wwdc2026-234",
+      "year": "2026",
+      "title": "Design Immersive Environments For visionOS Apps And The Spatial Web",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-234-design-immersive-environments-for-visionos-apps-and-the-spatial-web.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/234/",
+      "topics": [
+        "AI & Machine Learning",
+        "Graphics & Games",
+        "Spatial Computing",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2026-347",
+      "year": "2026",
+      "title": "Secure Your App: Mitigate Risks To Agentic Features",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-347-secure-your-app-mitigate-risks-to-agentic-features.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/347/",
+      "topics": [
+        "AI & Machine Learning",
+        "Privacy & Security"
+      ]
+    },
+    {
+      "id": "wwdc2026-328",
+      "year": "2026",
+      "title": "Explore Numerical Computing In Swift With MLX",
+      "coverage": "deep-researched",
+      "researchPriority": "P1",
+      "researchWave": "App Intelligence",
+      "path": "sessions/wwdc2026-328-explore-numerical-computing-in-swift-with-mlx.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/328/",
+      "topics": [
+        "AI & Machine Learning",
+        "Swift"
+      ]
+    },
+    {
+      "id": "wwdc2026-310",
+      "year": "2026",
+      "title": "What's New In Shortcuts",
+      "coverage": "deep-researched",
+      "researchPriority": "P0",
+      "researchWave": "App Intelligence",
+      "path": "sessions/wwdc2026-310-what-s-new-in-shortcuts.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/310/",
+      "topics": [
+        "AI & Machine Learning",
+        "System Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-8005",
+      "year": "2026",
+      "title": "Accessibility Technologies Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8005-accessibility-technologies-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8005/",
+      "topics": [
+        "Accessibility & Inclusion"
+      ]
+    },
+    {
+      "id": "wwdc2026-256",
+      "year": "2026",
+      "title": "Discover Generated Subtitles And Subtitle Styles",
+      "coverage": "deep-researched",
+      "researchPriority": "P1",
+      "researchWave": "Accessibility And Media",
+      "path": "sessions/wwdc2026-256-discover-generated-subtitles-and-subtitle-styles.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/256/",
+      "topics": [
+        "Accessibility & Inclusion",
+        "Audio & Video"
+      ]
+    },
+    {
+      "id": "wwdc2026-250",
+      "year": "2026",
+      "title": "Principles Of Great Design",
+      "coverage": "deep-researched",
+      "researchPriority": "P0",
+      "researchWave": "Platform UI",
+      "path": "sessions/wwdc2026-250-principles-of-great-design.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/250/",
+      "topics": [
+        "Accessibility & Inclusion",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2026-8017",
+      "year": "2026",
+      "title": "Swiftdata Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8017-swiftdata-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8017/",
+      "topics": [
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-297",
+      "year": "2026",
+      "title": "Best Practices For Integrating Visual Intelligence In Your App",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-297-best-practices-for-integrating-visual-intelligence-in-your-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/297/",
+      "topics": [
+        "App Services",
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-240",
+      "year": "2026",
+      "title": "Build Intelligent Siri Experiences With App Schemas",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-240-build-intelligent-siri-experiences-with-app-schemas.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/240/",
+      "topics": [
+        "App Services",
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-344",
+      "year": "2026",
+      "title": "Code-Along: Make Your App Available To Siri",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-344-code-along-make-your-app-available-to-siri.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/344/",
+      "topics": [
+        "App Services",
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-345",
+      "year": "2026",
+      "title": "Discover New Capabilities In The App Intents Framework",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-345-discover-new-capabilities-in-the-app-intents-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/345/",
+      "topics": [
+        "App Services",
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-343",
+      "year": "2026",
+      "title": "Explore Advanced App Intents Features For Siri And Apple Intelligence",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-343-explore-advanced-app-intents-features-for-siri-and-apple-intelligence.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/343/",
+      "topics": [
+        "App Services",
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-237",
+      "year": "2026",
+      "title": "What's New In Image Understanding",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-237-what-s-new-in-image-understanding.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/237/",
+      "topics": [
+        "App Services",
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-309",
+      "year": "2026",
+      "title": "Explore Retention Messaging In App Store Connect",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-309-explore-retention-messaging-in-app-store-connect.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/309/",
+      "topics": [
+        "App Services",
+        "App Store, Distribution & Marketing"
+      ]
+    },
+    {
+      "id": "wwdc2026-378",
+      "year": "2026",
+      "title": "Unlock In-Game Content With Storekit And Background Assets",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-378-unlock-in-game-content-with-storekit-and-background-assets.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/378/",
+      "topics": [
+        "App Services",
+        "App Store, Distribution & Marketing"
+      ]
+    },
+    {
+      "id": "wwdc2026-210",
+      "year": "2026",
+      "title": "What's New In Apple In-App Purchase",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-210-what-s-new-in-apple-in-app-purchase.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/210/",
+      "topics": [
+        "App Services",
+        "App Store, Distribution & Marketing"
+      ]
+    },
+    {
+      "id": "wwdc2026-201",
+      "year": "2026",
+      "title": "Secure Your Apps With App Attest",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-201-secure-your-apps-with-app-attest.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/201/",
+      "topics": [
+        "App Services",
+        "App Store, Distribution & Marketing",
+        "Business & Education",
+        "Privacy & Security"
+      ]
+    },
+    {
+      "id": "wwdc2026-230",
+      "year": "2026",
+      "title": "What's New In Assessment On macOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-230-what-s-new-in-assessment-on-macos.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/230/",
+      "topics": [
+        "App Services",
+        "Business & Education"
+      ]
+    },
+    {
+      "id": "wwdc2026-269",
+      "year": "2026",
+      "title": "What's New In SwiftUI",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-269-what-s-new-in-swiftui.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/269/",
+      "topics": [
+        "App Services",
+        "Design",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-205",
+      "year": "2026",
+      "title": "Enhance Your Presence On The App Store",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-205-enhance-your-presence-on-the-app-store.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/205/",
+      "topics": [
+        "App Services",
+        "Developer Tools",
+        "App Store, Distribution & Marketing"
+      ]
+    },
+    {
+      "id": "wwdc2026-8014",
+      "year": "2026",
+      "title": "watchOS Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8014-watchos-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8014/",
+      "topics": [
+        "App Services",
+        "Health & Fitness",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-271",
+      "year": "2026",
+      "title": "Code-Along: Build Powerful Drag And Drop In SwiftUI",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-271-code-along-build-powerful-drag-and-drop-in-swiftui.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/271/",
+      "topics": [
+        "App Services",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-370",
+      "year": "2026",
+      "title": "Elevate Your App's Text Experience With Textkit",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-370-elevate-your-app-s-text-experience-with-textkit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/370/",
+      "topics": [
+        "App Services",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-272",
+      "year": "2026",
+      "title": "Use SwiftUI With AppKit And UIKit",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-272-use-swiftui-with-appkit-and-uikit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/272/",
+      "topics": [
+        "App Services",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-8010",
+      "year": "2026",
+      "title": "App Store Connect Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8010-app-store-connect-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8010/",
+      "topics": [
+        "App Store, Distribution & Marketing"
+      ]
+    },
+    {
+      "id": "wwdc2026-206",
+      "year": "2026",
+      "title": "What's New In Managing Apple Devices",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-206-what-s-new-in-managing-apple-devices.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/206/",
+      "topics": [
+        "App Store, Distribution & Marketing",
+        "Business & Education"
+      ]
+    },
+    {
+      "id": "wwdc2026-216",
+      "year": "2026",
+      "title": "Create Web Extensions For Safari",
+      "coverage": "deep-researched",
+      "researchPriority": "P2",
+      "researchWave": "Safari And Web",
+      "path": "sessions/wwdc2026-216-create-web-extensions-for-safari.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/216/",
+      "topics": [
+        "App Store, Distribution & Marketing",
+        "Safari & Web"
+      ]
+    },
+    {
+      "id": "wwdc2026-312",
+      "year": "2026",
+      "title": "Meet The Now Playing Framework",
+      "coverage": "deep-researched",
+      "researchPriority": "P1",
+      "researchWave": "System Frameworks",
+      "path": "sessions/wwdc2026-312-meet-the-now-playing-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/312/",
+      "topics": [
+        "Audio & Video"
+      ]
+    },
+    {
+      "id": "wwdc2026-221",
+      "year": "2026",
+      "title": "Prepare Your tvOS Apps For Dynamic Type",
+      "coverage": "deep-researched",
+      "researchPriority": "P0",
+      "researchWave": "Platform UI",
+      "path": "sessions/wwdc2026-221-prepare-your-tvos-apps-for-dynamic-type.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/221/",
+      "topics": [
+        "Audio & Video",
+        "Accessibility & Inclusion"
+      ]
+    },
+    {
+      "id": "wwdc2026-303",
+      "year": "2026",
+      "title": "Build A Responsive Camera App That Launches Quickly",
+      "coverage": "deep-researched",
+      "researchPriority": "P1",
+      "researchWave": "System Frameworks",
+      "path": "sessions/wwdc2026-303-build-a-responsive-camera-app-that-launches-quickly.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/303/",
+      "topics": [
+        "Audio & Video",
+        "Photos & Camera"
+      ]
+    },
+    {
+      "id": "wwdc2026-391",
+      "year": "2026",
+      "title": "Offer Subscriptions To Groups And Organizations",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-391-offer-subscriptions-to-groups-and-organizations.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/391/",
+      "topics": [
+        "Business & Education",
+        "App Store, Distribution & Marketing"
+      ]
+    },
+    {
+      "id": "wwdc2026-379",
+      "year": "2026",
+      "title": "Meet Trust Insights",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-379-meet-trust-insights.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/379/",
+      "topics": [
+        "Business & Education",
+        "Privacy & Security"
+      ]
+    },
+    {
+      "id": "wwdc2026-251",
+      "year": "2026",
+      "title": "Communicate Your Brand Identity On iOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-251-communicate-your-brand-identity-on-ios.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/251/",
+      "topics": [
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2026-290",
+      "year": "2026",
+      "title": "Craft Clear Names For Features And Labels In Your App",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-290-craft-clear-names-for-features-and-labels-in-your-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/290/",
+      "topics": [
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2026-8012",
+      "year": "2026",
+      "title": "Icon Composer For Beginners Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8012-icon-composer-for-beginners-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8012/",
+      "topics": [
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2026-314",
+      "year": "2026",
+      "title": "Learn CSS Grid Lanes",
+      "coverage": "deep-researched",
+      "researchPriority": "P2",
+      "researchWave": "Safari And Web",
+      "path": "sessions/wwdc2026-314-learn-css-grid-lanes.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/314/",
+      "topics": [
+        "Design",
+        "Safari & Web"
+      ]
+    },
+    {
+      "id": "wwdc2026-315",
+      "year": "2026",
+      "title": "Rediscover The HTML Select Element",
+      "coverage": "deep-researched",
+      "researchPriority": "P2",
+      "researchWave": "Safari And Web",
+      "path": "sessions/wwdc2026-315-rediscover-the-html-select-element.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/315/",
+      "topics": [
+        "Design",
+        "Safari & Web"
+      ]
+    },
+    {
+      "id": "wwdc2026-322",
+      "year": "2026",
+      "title": "Compose Advanced Graphics Effects With SwiftUI",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-322-compose-advanced-graphics-effects-with-swiftui.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/322/",
+      "topics": [
+        "Design",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-321",
+      "year": "2026",
+      "title": "Dive Into Lazy Stacks And Scrolling With SwiftUI",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-321-dive-into-lazy-stacks-and-scrolling-with-swiftui.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/321/",
+      "topics": [
+        "Design",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-8007",
+      "year": "2026",
+      "title": "Coding Intelligence For Beginners Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8007-coding-intelligence-for-beginners-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8007/",
+      "topics": [
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2026-8013",
+      "year": "2026",
+      "title": "Xcode Tips And Tricks Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8013-xcode-tips-and-tricks-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8013/",
+      "topics": [
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2026-388",
+      "year": "2026",
+      "title": "Find And Fix Performance Issues In Your Metal Games",
+      "coverage": "deep-researched",
+      "researchPriority": "P1",
+      "researchWave": "Developer Workflow",
+      "path": "sessions/wwdc2026-388-find-and-fix-performance-issues-in-your-metal-games.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/388/",
+      "topics": [
+        "Developer Tools",
+        "Graphics & Games"
+      ]
+    },
+    {
+      "id": "wwdc2026-252",
+      "year": "2026",
+      "title": "Design No-Code Games With Reality Composer Pro 3",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-252-design-no-code-games-with-reality-composer-pro-3.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/252/",
+      "topics": [
+        "Developer Tools",
+        "Graphics & Games",
+        "Spatial Computing",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2026-265",
+      "year": "2026",
+      "title": "Build Real-Time Apps And Services With gRPC And Swift",
+      "coverage": "deep-researched",
+      "researchPriority": "P1",
+      "researchWave": "System Frameworks",
+      "path": "sessions/wwdc2026-265-build-real-time-apps-and-services-with-grpc-and-swift.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/265/",
+      "topics": [
+        "Developer Tools",
+        "Swift"
+      ]
+    },
+    {
+      "id": "wwdc2026-267",
+      "year": "2026",
+      "title": "Migrate To Swift Testing",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-267-migrate-to-swift-testing.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/267/",
+      "topics": [
+        "Developer Tools",
+        "Swift"
+      ]
+    },
+    {
+      "id": "wwdc2026-262",
+      "year": "2026",
+      "title": "What's New In Swift",
+      "coverage": "deep-researched",
+      "researchPriority": "P0",
+      "researchWave": "Developer Workflow",
+      "path": "sessions/wwdc2026-262-what-s-new-in-swift.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/262/",
+      "topics": [
+        "Developer Tools",
+        "Swift"
+      ]
+    },
+    {
+      "id": "wwdc2026-222",
+      "year": "2026",
+      "title": "Meet The New Metrickit",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-222-meet-the-new-metrickit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/222/",
+      "topics": [
+        "Developer Tools",
+        "System Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-121",
+      "year": "2026",
+      "title": "Announcing Apple's Next Big Step For Siri And Iphone",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-121-announcing-apple-s-next-big-step-for-siri-and-iphone.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/121/",
+      "topics": [
+        "Essentials"
+      ]
+    },
+    {
+      "id": "wwdc2026-397",
+      "year": "2026",
+      "title": "Dub Dub Daily: Day 2",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-397-dub-dub-daily-day-2.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/397/",
+      "topics": [
+        "Essentials"
+      ]
+    },
+    {
+      "id": "wwdc2026-398",
+      "year": "2026",
+      "title": "Dub Dub Daily: Day 3",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-398-dub-dub-daily-day-3.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/398/",
+      "topics": [
+        "Essentials"
+      ]
+    },
+    {
+      "id": "wwdc2026-394",
+      "year": "2026",
+      "title": "Get Ready For Wwdc26",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-394-get-ready-for-wwdc26.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/394/",
+      "topics": [
+        "Essentials"
+      ]
+    },
+    {
+      "id": "wwdc2026-101",
+      "year": "2026",
+      "title": "Keynote",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-101-keynote.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/101/",
+      "topics": [
+        "Essentials"
+      ]
+    },
+    {
+      "id": "wwdc2026-111",
+      "year": "2026",
+      "title": "Keynote (Asl)",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-111-keynote-asl.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/111/",
+      "topics": [
+        "Essentials"
+      ]
+    },
+    {
+      "id": "wwdc2026-102",
+      "year": "2026",
+      "title": "Platforms State Of The Union",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-102-platforms-state-of-the-union.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/102/",
+      "topics": [
+        "Essentials"
+      ]
+    },
+    {
+      "id": "wwdc2026-112",
+      "year": "2026",
+      "title": "Platforms State Of The Union (Asl)",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-112-platforms-state-of-the-union-asl.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/112/",
+      "topics": [
+        "Essentials"
+      ]
+    },
+    {
+      "id": "wwdc2026-122",
+      "year": "2026",
+      "title": "Wwdc26 Platforms State Of The Union Recap",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-122-wwdc26-platforms-state-of-the-union-recap.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/122/",
+      "topics": [
+        "Essentials"
+      ]
+    },
+    {
+      "id": "wwdc2026-292",
+      "year": "2026",
+      "title": "Design Intuitive Search Experiences",
+      "coverage": "deep-researched",
+      "researchPriority": "P0",
+      "researchWave": "Platform UI",
+      "path": "sessions/wwdc2026-292-design-intuitive-search-experiences.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/292/",
+      "topics": [
+        "Essentials",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2026-358",
+      "year": "2026",
+      "title": "Make Your Game Great With Touch",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-358-make-your-game-great-with-touch.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/358/",
+      "topics": [
+        "Graphics & Games"
+      ]
+    },
+    {
+      "id": "wwdc2026-330",
+      "year": "2026",
+      "title": "Optimize Custom Machine Learning Operations With Metal Tensors",
+      "coverage": "deep-researched",
+      "researchPriority": "P1",
+      "researchWave": "App Intelligence",
+      "path": "sessions/wwdc2026-330-optimize-custom-machine-learning-operations-with-metal-tensors.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/330/",
+      "topics": [
+        "Graphics & Games",
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-287",
+      "year": "2026",
+      "title": "Build Next-Generation Experiences With visionOS 27",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-287-build-next-generation-experiences-with-visionos-27.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/287/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2026-284",
+      "year": "2026",
+      "title": "Collaborate On Structured 3d Models In visionOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-284-collaborate-on-structured-3d-models-in-visionos.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/284/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2026-282",
+      "year": "2026",
+      "title": "Discover The Spatial Preview Framework",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-282-discover-the-spatial-preview-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/282/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2026-279",
+      "year": "2026",
+      "title": "Explore Advances In Realitykit",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-279-explore-advances-in-realitykit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/279/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2026-283",
+      "year": "2026",
+      "title": "Explore Enhancements To visionOS Object Tracking",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-283-explore-enhancements-to-visionos-object-tracking.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/283/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2026-281",
+      "year": "2026",
+      "title": "Extend Reality Composer Pro 3 Functionality With Xcode",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-281-extend-reality-composer-pro-3-functionality-with-xcode.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/281/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2026-280",
+      "year": "2026",
+      "title": "Iterate Your Spatial Scenes Faster With Reality Composer Pro 3",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-280-iterate-your-spatial-scenes-faster-with-reality-composer-pro-3.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/280/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2026-393",
+      "year": "2026",
+      "title": "Supercharge Your Spatial Workflows With Reality Composer Pro 3",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-393-supercharge-your-spatial-workflows-with-reality-composer-pro-3.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/393/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2026-286",
+      "year": "2026",
+      "title": "Use Foveated Streaming To Bring Immersive Content To visionOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-286-use-foveated-streaming-to-bring-immersive-content-to-visionos.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/286/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2026-8018",
+      "year": "2026",
+      "title": "Camera And Photo Technologies Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8018-camera-and-photo-technologies-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8018/",
+      "topics": [
+        "Photos & Camera"
+      ]
+    },
+    {
+      "id": "wwdc2026-305",
+      "year": "2026",
+      "title": "Enhance Raw Image Processing With Core Image",
+      "coverage": "deep-researched",
+      "researchPriority": "P1",
+      "researchWave": "System Frameworks",
+      "path": "sessions/wwdc2026-305-enhance-raw-image-processing-with-core-image.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/305/",
+      "topics": [
+        "Photos & Camera"
+      ]
+    },
+    {
+      "id": "wwdc2026-304",
+      "year": "2026",
+      "title": "Implement High Resolution Photo Capture",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-304-implement-high-resolution-photo-capture.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/304/",
+      "topics": [
+        "Photos & Camera"
+      ]
+    },
+    {
+      "id": "wwdc2026-341",
+      "year": "2026",
+      "title": "Support The Center Stage Front Camera In Your iOS App",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-341-support-the-center-stage-front-camera-in-your-ios-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/341/",
+      "topics": [
+        "Photos & Camera"
+      ]
+    },
+    {
+      "id": "wwdc2026-8009",
+      "year": "2026",
+      "title": "Privacy And Security Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8009-privacy-and-security-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8009/",
+      "topics": [
+        "Privacy & Security"
+      ]
+    },
+    {
+      "id": "wwdc2026-8015",
+      "year": "2026",
+      "title": "Safari And Web Technologies Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8015-safari-and-web-technologies-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8015/",
+      "topics": [
+        "Safari & Web"
+      ]
+    },
+    {
+      "id": "wwdc2026-8004",
+      "year": "2026",
+      "title": "visionOS Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8004-visionos-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8004/",
+      "topics": [
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2026-338",
+      "year": "2026",
+      "title": "Build Live Production Tools For Apple Immersive Video",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-338-build-live-production-tools-for-apple-immersive-video.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/338/",
+      "topics": [
+        "Spatial Computing",
+        "Audio & Video"
+      ]
+    },
+    {
+      "id": "wwdc2026-285",
+      "year": "2026",
+      "title": "Discover Usdkit And What's New In Openusd",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-285-discover-usdkit-and-what-s-new-in-openusd.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/285/",
+      "topics": [
+        "Spatial Computing",
+        "Graphics & Games"
+      ]
+    },
+    {
+      "id": "wwdc2026-320",
+      "year": "2026",
+      "title": "Explore Immersive Website Environments In visionOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-320-explore-immersive-website-environments-in-visionos.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/320/",
+      "topics": [
+        "Spatial Computing",
+        "Safari & Web"
+      ]
+    },
+    {
+      "id": "wwdc2026-215",
+      "year": "2026",
+      "title": "Get Started With The HTML Model Element",
+      "coverage": "deep-researched",
+      "researchPriority": "P2",
+      "researchWave": "Safari And Web",
+      "path": "sessions/wwdc2026-215-get-started-with-the-html-model-element.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/215/",
+      "topics": [
+        "Spatial Computing",
+        "Safari & Web"
+      ]
+    },
+    {
+      "id": "wwdc2026-8001",
+      "year": "2026",
+      "title": "Swift Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8001-swift-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8001/",
+      "topics": [
+        "Swift"
+      ]
+    },
+    {
+      "id": "wwdc2026-254",
+      "year": "2026",
+      "title": "Integrate Musickit Into Your App",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-254-integrate-musickit-into-your-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/254/",
+      "topics": [
+        "Swift",
+        "Audio & Video"
+      ]
+    },
+    {
+      "id": "wwdc2026-261",
+      "year": "2026",
+      "title": "Build, Deliver, And Automate With Xcode Cloud",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-261-build-deliver-and-automate-with-xcode-cloud.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/261/",
+      "topics": [
+        "Swift",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2026-260",
+      "year": "2026",
+      "title": "Get The Most Out Of Device Hub",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-260-get-the-most-out-of-device-hub.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/260/",
+      "topics": [
+        "Swift",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2026-268",
+      "year": "2026",
+      "title": "Profile, Fix, And Verify: Improve App Responsiveness With Instruments",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-268-profile-fix-and-verify-improve-app-responsiveness-with-instruments.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/268/",
+      "topics": [
+        "Swift",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2026-258",
+      "year": "2026",
+      "title": "What's New In Xcode 27",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-258-what-s-new-in-xcode-27.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/258/",
+      "topics": [
+        "Swift",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2026-259",
+      "year": "2026",
+      "title": "Xcode, Agents, And You",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-259-xcode-agents-and-you.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/259/",
+      "topics": [
+        "Swift",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2026-275",
+      "year": "2026",
+      "title": "Code-Along: Add Persistence With Swiftdata",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-275-code-along-add-persistence-with-swiftdata.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/275/",
+      "topics": [
+        "Swift",
+        "SwiftUI & UI Frameworks",
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-274",
+      "year": "2026",
+      "title": "What's New In Swiftdata",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-274-what-s-new-in-swiftdata.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/274/",
+      "topics": [
+        "Swift",
+        "SwiftUI & UI Frameworks",
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-389",
+      "year": "2026",
+      "title": "Discover Container Machines",
+      "coverage": "deep-researched",
+      "researchPriority": "P1",
+      "researchWave": "Developer Workflow",
+      "path": "sessions/wwdc2026-389-discover-container-machines.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/389/",
+      "topics": [
+        "Swift",
+        "System Services",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2026-289",
+      "year": "2026",
+      "title": "Modernize Your AppKit App",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-289-modernize-your-appkit-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/289/",
+      "topics": [
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-278",
+      "year": "2026",
+      "title": "Modernize Your UIKit App",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-278-modernize-your-uikit-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/278/",
+      "topics": [
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-8002",
+      "year": "2026",
+      "title": "SwiftUI For Beginners Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8002-swiftui-for-beginners-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8002/",
+      "topics": [
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-8006",
+      "year": "2026",
+      "title": "SwiftUI Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8006-swiftui-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8006/",
+      "topics": [
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-8120",
+      "year": "2026",
+      "title": "SwiftUI Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8120-swiftui-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8120/",
+      "topics": [
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-277",
+      "year": "2026",
+      "title": "Widgetkit Foundations",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-277-widgetkit-foundations.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/277/",
+      "topics": [
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2026-219",
+      "year": "2026",
+      "title": "Enhance The Accessibility Of Your Reading App",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-219-enhance-the-accessibility-of-your-reading-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/219/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "Accessibility & Inclusion"
+      ]
+    },
+    {
+      "id": "wwdc2026-220",
+      "year": "2026",
+      "title": "Refine Accessibility For Custom Controls",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-220-refine-accessibility-for-custom-controls.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/220/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "Accessibility & Inclusion"
+      ]
+    },
+    {
+      "id": "wwdc2026-223",
+      "year": "2026",
+      "title": "Live Activities Essentials",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-223-live-activities-essentials.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/223/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-203",
+      "year": "2026",
+      "title": "Read Between The Strokes With Pencilkit",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-203-read-between-the-strokes-with-pencilkit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/203/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-372",
+      "year": "2026",
+      "title": "Unwrap Paperkit",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-372-unwrap-paperkit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/372/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-207",
+      "year": "2026",
+      "title": "Deliver Workout Insights With Healthkit Workout Zones",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-207-deliver-workout-insights-with-healthkit-workout-zones.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/207/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "Health & Fitness"
+      ]
+    },
+    {
+      "id": "wwdc2026-204",
+      "year": "2026",
+      "title": "What's New In Webkit For Safari 27",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-204-what-s-new-in-webkit-for-safari-27.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/204/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "Safari & Web"
+      ]
+    },
+    {
+      "id": "wwdc2026-224",
+      "year": "2026",
+      "title": "Expand The Capabilities Of Your Virtualization App",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-224-expand-the-capabilities-of-your-virtualization-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/224/",
+      "topics": [
+        "System Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-369",
+      "year": "2026",
+      "title": "Find Your Accessory With Bluetooth Channel Sounding",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-369-find-your-accessory-with-bluetooth-channel-sounding.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/369/",
+      "topics": [
+        "System Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-8003",
+      "year": "2026",
+      "title": "Power And Performance Group Lab",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-8003-power-and-performance-group-lab.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/8003/",
+      "topics": [
+        "System Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-212",
+      "year": "2026",
+      "title": "Rev Up Your Carplay App",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-212-rev-up-your-carplay-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/212/",
+      "topics": [
+        "System Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-319",
+      "year": "2026",
+      "title": "Build With The New Apple Foundation Model On Private Cloud Compute",
+      "coverage": "deep-researched",
+      "researchPriority": "P0",
+      "researchWave": "App Intelligence",
+      "path": "sessions/wwdc2026-319-build-with-the-new-apple-foundation-model-on-private-cloud-compute.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/319/",
+      "topics": [
+        "System Services",
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2026-226",
+      "year": "2026",
+      "title": "Create Live Communication Experiences",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-226-create-live-communication-experiences.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/226/",
+      "topics": [
+        "System Services",
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2026-209",
+      "year": "2026",
+      "title": "What's New In Wallet",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2026-209-what-s-new-in-wallet.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/209/",
+      "topics": [
+        "System Services",
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2025-277",
+      "year": "2025",
+      "title": "Bring Advanced Speech-To-Text To Your App With Speechanalyzer",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-277-bring-advanced-speech-to-text-to-your-app-with-speechanalyzer.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/277/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-259",
+      "year": "2025",
+      "title": "Code-Along: Bring On-Device AI To Your App Using The Foundation Models Framework",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-259-code-along-bring-on-device-ai-to-your-app-using-the-foundation-models-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/259/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-301",
+      "year": "2025",
+      "title": "Deep Dive Into The Foundation Models Framework",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-301-deep-dive-into-the-foundation-models-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/301/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-260",
+      "year": "2025",
+      "title": "Develop For Shortcuts And Spotlight With App Intents",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-260-develop-for-shortcuts-and-spotlight-with-app-intents.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/260/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-298",
+      "year": "2025",
+      "title": "Explore Large Language Models On Apple Silicon With MLX",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-298-explore-large-language-models-on-apple-silicon-with-mlx.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/298/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-275",
+      "year": "2025",
+      "title": "Explore New Advances In App Intents",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-275-explore-new-advances-in-app-intents.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/275/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-315",
+      "year": "2025",
+      "title": "Get Started With MLX For Apple Silicon",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-315-get-started-with-mlx-for-apple-silicon.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/315/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-244",
+      "year": "2025",
+      "title": "Get To Know App Intents",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-244-get-to-know-app-intents.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/244/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-286",
+      "year": "2025",
+      "title": "Meet The Foundation Models Framework",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-286-meet-the-foundation-models-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/286/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-272",
+      "year": "2025",
+      "title": "Read Documents Using The Vision Framework",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-272-read-documents-using-the-vision-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/272/",
+      "topics": [
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-281",
+      "year": "2025",
+      "title": "Design Interactive Snippets",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-281-design-interactive-snippets.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/281/",
+      "topics": [
+        "AI & Machine Learning",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2025-308",
+      "year": "2025",
+      "title": "Optimize Cpu Performance With Instruments",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-308-optimize-cpu-performance-with-instruments.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/308/",
+      "topics": [
+        "AI & Machine Learning",
+        "Graphics & Games",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2025-238",
+      "year": "2025",
+      "title": "Customize Your App For Assistive Access",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-238-customize-your-app-for-assistive-access.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/238/",
+      "topics": [
+        "Accessibility & Inclusion"
+      ]
+    },
+    {
+      "id": "wwdc2025-224",
+      "year": "2025",
+      "title": "Evaluate Your App For Accessibility Nutrition Labels",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-224-evaluate-your-app-for-accessibility-nutrition-labels.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/224/",
+      "topics": [
+        "Accessibility & Inclusion"
+      ]
+    },
+    {
+      "id": "wwdc2025-229",
+      "year": "2025",
+      "title": "Make Your Mac App More Accessible To Everyone",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-229-make-your-mac-app-more-accessible-to-everyone.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/229/",
+      "topics": [
+        "Accessibility & Inclusion"
+      ]
+    },
+    {
+      "id": "wwdc2025-316",
+      "year": "2025",
+      "title": "Principles Of Inclusive App Design",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-316-principles-of-inclusive-app-design.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/316/",
+      "topics": [
+        "Accessibility & Inclusion",
+        "Essentials",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2025-285",
+      "year": "2025",
+      "title": "Meet Paperkit",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-285-meet-paperkit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/285/",
+      "topics": [
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2025-230",
+      "year": "2025",
+      "title": "Wake Up To The Alarmkit API",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-230-wake-up-to-the-alarmkit-api.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/230/",
+      "topics": [
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2025-322",
+      "year": "2025",
+      "title": "Track Workouts With Healthkit On iOS And iPadOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-322-track-workouts-with-healthkit-on-ios-and-ipados.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/322/",
+      "topics": [
+        "App Services",
+        "Health & Fitness"
+      ]
+    },
+    {
+      "id": "wwdc2025-293",
+      "year": "2025",
+      "title": "Enhance Child Safety With Permissionkit",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-293-enhance-child-safety-with-permissionkit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/293/",
+      "topics": [
+        "App Services",
+        "Privacy & Security"
+      ]
+    },
+    {
+      "id": "wwdc2025-236",
+      "year": "2025",
+      "title": "Unlock Gpu Computing With Webgpu",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-236-unlock-gpu-computing-with-webgpu.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/236/",
+      "topics": [
+        "App Services",
+        "Safari & Web"
+      ]
+    },
+    {
+      "id": "wwdc2025-233",
+      "year": "2025",
+      "title": "What's New In Safari And Webkit",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-233-what-s-new-in-safari-and-webkit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/233/",
+      "topics": [
+        "App Services",
+        "Safari & Web"
+      ]
+    },
+    {
+      "id": "wwdc2025-223",
+      "year": "2025",
+      "title": "Explore Enhancements To Your Spatial Business App",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-223-explore-enhancements-to-your-spatial-business-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/223/",
+      "topics": [
+        "App Services",
+        "Spatial Computing",
+        "Business & Education"
+      ]
+    },
+    {
+      "id": "wwdc2025-291",
+      "year": "2025",
+      "title": "Swiftdata: Dive Into Inheritance And Schema Migration",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-291-swiftdata-dive-into-inheritance-and-schema-migration.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/291/",
+      "topics": [
+        "App Services",
+        "Swift"
+      ]
+    },
+    {
+      "id": "wwdc2025-328",
+      "year": "2025",
+      "title": "What's New In App Store Connect",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-328-what-s-new-in-app-store-connect.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/328/",
+      "topics": [
+        "App Store, Distribution & Marketing"
+      ]
+    },
+    {
+      "id": "wwdc2025-241",
+      "year": "2025",
+      "title": "What's New In Storekit And In-App Purchase",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-241-what-s-new-in-storekit-and-in-app-purchase.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/241/",
+      "topics": [
+        "App Store, Distribution & Marketing",
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2025-317",
+      "year": "2025",
+      "title": "What's New In visionOS 26",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-317-what-s-new-in-visionos-26.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/317/",
+      "topics": [
+        "Audio & Video",
+        "Business & Education",
+        "Design",
+        "Graphics & Games",
+        "Photos & Camera",
+        "Safari & Web",
+        "SwiftUI & UI Frameworks",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2025-304",
+      "year": "2025",
+      "title": "Explore Video Experiences For visionOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-304-explore-video-experiences-for-visionos.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/304/",
+      "topics": [
+        "Audio & Video",
+        "Design",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2025-403",
+      "year": "2025",
+      "title": "Learn About Apple Immersive Video Technologies",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-403-learn-about-apple-immersive-video-technologies.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/403/",
+      "topics": [
+        "Audio & Video",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2025-318",
+      "year": "2025",
+      "title": "Share visionOS Experiences With Nearby People",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-318-share-visionos-experiences-with-nearby-people.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/318/",
+      "topics": [
+        "Audio & Video",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2025-296",
+      "year": "2025",
+      "title": "Support Immersive Video Playback In visionOS Apps",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-296-support-immersive-video-playback-in-visionos-apps.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/296/",
+      "topics": [
+        "Audio & Video",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2025-251",
+      "year": "2025",
+      "title": "Enhance Your App's Audio Recording Capabilities",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-251-enhance-your-app-s-audio-recording-capabilities.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/251/",
+      "topics": [
+        "Audio & Video",
+        "Spatial Computing",
+        "Photos & Camera"
+      ]
+    },
+    {
+      "id": "wwdc2025-258",
+      "year": "2025",
+      "title": "What's New In Apple Device Management And Identity",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-258-what-s-new-in-apple-device-management-and-identity.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/258/",
+      "topics": [
+        "Business & Education"
+      ]
+    },
+    {
+      "id": "wwdc2025-248",
+      "year": "2025",
+      "title": "Explore Prompt Design & Safety For On-Device Foundation Models",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-248-explore-prompt-design-safety-for-on-device-foundation-models.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/248/",
+      "topics": [
+        "Design",
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-305",
+      "year": "2025",
+      "title": "Optimize Your Custom Environments For visionOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-305-optimize-your-custom-environments-for-visionos.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/305/",
+      "topics": [
+        "Design",
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2025-274",
+      "year": "2025",
+      "title": "Better Together: SwiftUI And Realitykit",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-274-better-together-swiftui-and-realitykit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/274/",
+      "topics": [
+        "Design",
+        "Spatial Computing",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-273",
+      "year": "2025",
+      "title": "Meet SwiftUI Spatial Layout",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-273-meet-swiftui-spatial-layout.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/273/",
+      "topics": [
+        "Design",
+        "Spatial Computing",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-290",
+      "year": "2025",
+      "title": "Set The Scene With SwiftUI In visionOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-290-set-the-scene-with-swiftui-in-visionos.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/290/",
+      "topics": [
+        "Design",
+        "Spatial Computing",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-247",
+      "year": "2025",
+      "title": "What's New In Xcode 26",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-247-what-s-new-in-xcode-26.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/247/",
+      "topics": [
+        "Design",
+        "Swift",
+        "SwiftUI & UI Frameworks",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2025-323",
+      "year": "2025",
+      "title": "Build A SwiftUI App With The New Design",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-323-build-a-swiftui-app-with-the-new-design.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/323/",
+      "topics": [
+        "Design",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-284",
+      "year": "2025",
+      "title": "Build A UIKit App With The New Design",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-284-build-a-uikit-app-with-the-new-design.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/284/",
+      "topics": [
+        "Design",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-225",
+      "year": "2025",
+      "title": "Code-Along: Explore Localization With Xcode",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-225-code-along-explore-localization-with-xcode.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/225/",
+      "topics": [
+        "Developer Tools",
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2025-256",
+      "year": "2025",
+      "title": "What's New In SwiftUI",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-256-what-s-new-in-swiftui.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/256/",
+      "topics": [
+        "Developer Tools",
+        "Essentials",
+        "Spatial Computing",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-360",
+      "year": "2025",
+      "title": "Discover Machine Learning & AI Frameworks On Apple Platforms",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-360-discover-machine-learning-ai-frameworks-on-apple-platforms.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/360/",
+      "topics": [
+        "Essentials",
+        "AI & Machine Learning"
+      ]
+    },
+    {
+      "id": "wwdc2025-289",
+      "year": "2025",
+      "title": "Explore Spatial Accessory Input On visionOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-289-explore-spatial-accessory-input-on-visionos.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/289/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2025-294",
+      "year": "2025",
+      "title": "What's New In Metal Rendering For Immersive Apps",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-294-what-s-new-in-metal-rendering-for-immersive-apps.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/294/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2025-287",
+      "year": "2025",
+      "title": "What's New In Realitykit",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-287-what-s-new-in-realitykit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/287/",
+      "topics": [
+        "Graphics & Games",
+        "Spatial Computing"
+      ]
+    },
+    {
+      "id": "wwdc2025-334",
+      "year": "2025",
+      "title": "What's New In watchOS 26",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-334-what-s-new-in-watchos-26.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/334/",
+      "topics": [
+        "Health & Fitness",
+        "Maps & Location",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-204",
+      "year": "2025",
+      "title": "Go Further With Mapkit",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-204-go-further-with-mapkit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/204/",
+      "topics": [
+        "Maps & Location"
+      ]
+    },
+    {
+      "id": "wwdc2025-246",
+      "year": "2025",
+      "title": "Integrate Privacy Into Your Development Process",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-246-integrate-privacy-into-your-development-process.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/246/",
+      "topics": [
+        "Privacy & Security"
+      ]
+    },
+    {
+      "id": "wwdc2025-279",
+      "year": "2025",
+      "title": "What's New In Passkeys",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-279-what-s-new-in-passkeys.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/279/",
+      "topics": [
+        "Privacy & Security"
+      ]
+    },
+    {
+      "id": "wwdc2025-243",
+      "year": "2025",
+      "title": "What's New In UIKit",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-243-what-s-new-in-uikit.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/243/",
+      "topics": [
+        "Privacy & Security",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-228",
+      "year": "2025",
+      "title": "Supercharge Device Connectivity With Wi-Fi Aware",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-228-supercharge-device-connectivity-with-wi-fi-aware.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/228/",
+      "topics": [
+        "Privacy & Security",
+        "System Services"
+      ]
+    },
+    {
+      "id": "wwdc2025-231",
+      "year": "2025",
+      "title": "Meet Webkit For SwiftUI",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-231-meet-webkit-for-swiftui.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/231/",
+      "topics": [
+        "Safari & Web",
+        "SwiftUI & UI Frameworks",
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2025-303",
+      "year": "2025",
+      "title": "Design Hover Interactions For visionOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-303-design-hover-interactions-for-visionos.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/303/",
+      "topics": [
+        "Spatial Computing",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2025-237",
+      "year": "2025",
+      "title": "What's New For The Spatial Web",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-237-what-s-new-for-the-spatial-web.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/237/",
+      "topics": [
+        "Spatial Computing",
+        "Safari & Web"
+      ]
+    },
+    {
+      "id": "wwdc2025-255",
+      "year": "2025",
+      "title": "Design Widgets For visionOS",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-255-design-widgets-for-visionos.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/255/",
+      "topics": [
+        "Spatial Computing",
+        "SwiftUI & UI Frameworks",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2025-344",
+      "year": "2025",
+      "title": "Record, Replay, And Review: Ui Automation With Xcode",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-344-record-replay-and-review-ui-automation-with-xcode.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/344/",
+      "topics": [
+        "Swift",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2025-280",
+      "year": "2025",
+      "title": "Code-Along: Cook Up A Rich Text Experience In SwiftUI With Attributedstring",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-280-code-along-cook-up-a-rich-text-experience-in-swiftui-with-attributedstring.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/280/",
+      "topics": [
+        "Swift",
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-306",
+      "year": "2025",
+      "title": "Optimize SwiftUI Performance With Instruments",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-306-optimize-swiftui-performance-with-instruments.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/306/",
+      "topics": [
+        "Swift",
+        "SwiftUI & UI Frameworks",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2025-313",
+      "year": "2025",
+      "title": "Bring Swift Charts To The Third Dimension",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-313-bring-swift-charts-to-the-third-dimension.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/313/",
+      "topics": [
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-310",
+      "year": "2025",
+      "title": "Build An AppKit App With The New Design",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-310-build-an-appkit-app-with-the-new-design.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/310/",
+      "topics": [
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-282",
+      "year": "2025",
+      "title": "Make Your UIKit App More Flexible",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-282-make-your-uikit-app-more-flexible.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/282/",
+      "topics": [
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-278",
+      "year": "2025",
+      "title": "What's New In Widgets",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-278-what-s-new-in-widgets.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/278/",
+      "topics": [
+        "SwiftUI & UI Frameworks"
+      ]
+    },
+    {
+      "id": "wwdc2025-222",
+      "year": "2025",
+      "title": "Enhance Your App's Multilingual Experience",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-222-enhance-your-app-s-multilingual-experience.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/222/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "App Services"
+      ]
+    },
+    {
+      "id": "wwdc2025-361",
+      "year": "2025",
+      "title": "Create Icons With Icon Composer",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-361-create-icons-with-icon-composer.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/361/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2025-208",
+      "year": "2025",
+      "title": "Elevate The Design Of Your Ipad App",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-208-elevate-the-design-of-your-ipad-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/208/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2025-356",
+      "year": "2025",
+      "title": "Get To Know The New Design System",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-356-get-to-know-the-new-design-system.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/356/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2025-219",
+      "year": "2025",
+      "title": "Meet Liquid Glass",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-219-meet-liquid-glass.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/219/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2025-220",
+      "year": "2025",
+      "title": "Say Hello To The New Look Of App Icons",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-220-say-hello-to-the-new-look-of-app-icons.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/220/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2025-337",
+      "year": "2025",
+      "title": "What's New In Sf Symbols 7",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-337-what-s-new-in-sf-symbols-7.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/337/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "Design"
+      ]
+    },
+    {
+      "id": "wwdc2025-266",
+      "year": "2025",
+      "title": "Explore Concurrency In SwiftUI",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-266-explore-concurrency-in-swiftui.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/266/",
+      "topics": [
+        "SwiftUI & UI Frameworks",
+        "Swift"
+      ]
+    },
+    {
+      "id": "wwdc2025-234",
+      "year": "2025",
+      "title": "Filter And Tunnel Network Traffic With Networkextension",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-234-filter-and-tunnel-network-traffic-with-networkextension.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/234/",
+      "topics": [
+        "System Services"
+      ]
+    },
+    {
+      "id": "wwdc2025-226",
+      "year": "2025",
+      "title": "Profile And Optimize Power Usage In Your App",
+      "coverage": "deep-researched",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-226-profile-and-optimize-power-usage-in-your-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/226/",
+      "topics": [
+        "System Services",
+        "Developer Tools"
+      ]
+    },
+    {
+      "id": "wwdc2025-299",
+      "year": "2025",
+      "title": "Deliver Age-Appropriate Experiences In Your App",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-299-deliver-age-appropriate-experiences-in-your-app.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/299/",
+      "topics": [
+        "System Services",
+        "Privacy & Security"
+      ]
+    },
+    {
+      "id": "wwdc2025-314",
+      "year": "2025",
+      "title": "Get Ahead With Quantum-Secure Cryptography",
+      "coverage": "metadata-only",
+      "researchPriority": null,
+      "researchWave": null,
+      "path": "sessions/wwdc2025-314-get-ahead-with-quantum-secure-cryptography.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/314/",
+      "topics": [
+        "System Services",
+        "Privacy & Security"
+      ]
+    }
+  ]
+}

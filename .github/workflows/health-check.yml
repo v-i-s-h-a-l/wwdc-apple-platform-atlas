@@ -1,0 +1,35 @@
+name: Health Check
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate router
+        run: |
+          python3 scripts/generate_markdown_corpus.py
+          python3 scripts/generate_session_atlas_html.py
+          cp session-atlas.html index.html
+          python3 scripts/generate_agent_router.py
+      - name: Validate public repo
+        run: python3 scripts/validate_public_repo.py
+      - name: Generated files are in sync
+        run: git diff --exit-code
+      - name: Validate JSON
+        run: |
+          python3 -m json.tool agent-router.json >/dev/null
+          python3 -m json.tool data/session-atlas.json >/dev/null
+          python3 -m json.tool agent-corpus/manifest.json >/dev/null

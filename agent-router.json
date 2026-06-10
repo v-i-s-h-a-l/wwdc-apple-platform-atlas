@@ -1,0 +1,1298 @@
+{
+  "schema": "agentic-research-router/v1",
+  "corpus": "wwdc-apple-platform-research",
+  "generatedFrom": {
+    "atlas": "data/session-atlas.json",
+    "manifest": "agent-corpus/manifest.json"
+  },
+  "entrypoints": {
+    "llms": "llms.txt",
+    "agentIndex": "agent-corpus/AGENT_INDEX.md",
+    "questionRouting": "agent-corpus/QUESTION_ROUTING.md",
+    "coverageStatus": "agent-corpus/COVERAGE_STATUS.md",
+    "researchQueue": "agent-corpus/RESEARCH_QUEUE.md",
+    "publicReader": "index.html"
+  },
+  "coverage": {
+    "wwdc26SessionCount": 135,
+    "wwdc25RelevantSessionCount": 76,
+    "totalSessionCount": 211,
+    "transcriptDerivedCount": 86
+  },
+  "routes": {
+    "feature-question": {
+      "when": "The user asks whether a capability exists, what changed, or which sessions/docs are relevant.",
+      "start": "agent-corpus/features/",
+      "fallback": "agent-corpus/QUESTION_ROUTING.md"
+    },
+    "session-question": {
+      "when": "The user asks about a specific WWDC video, session ID, or title.",
+      "start": "agent-corpus/sessions/",
+      "fallback": "agent-corpus/manifest.json"
+    },
+    "topic-question": {
+      "when": "The user asks about an Apple topic group or broad area.",
+      "start": "agent-corpus/topics/",
+      "fallback": "agent-corpus/AGENT_INDEX.md"
+    },
+    "confidence-question": {
+      "when": "The answer needs confidence, coverage, or whether deeper review happened.",
+      "start": "agent-corpus/COVERAGE_STATUS.md",
+      "fallback": "agent-corpus/RESEARCH_QUEUE.md"
+    },
+    "exact-api-question": {
+      "when": "The user needs exact SDK symbols, signatures, or availability.",
+      "start": "agent-corpus/docs/apple-documentation.md",
+      "fallback": "Follow Apple documentation links from the relevant feature/session file."
+    }
+  },
+  "features": {
+    "foundation-models": {
+      "title": "Foundation Models",
+      "path": "agent-corpus/features/foundation-models.md"
+    },
+    "core-ai": {
+      "title": "Core AI",
+      "path": "agent-corpus/features/core-ai.md"
+    },
+    "app-intents-siri": {
+      "title": "App Intents And Siri",
+      "path": "agent-corpus/features/app-intents-siri.md"
+    },
+    "xcode-agents": {
+      "title": "Xcode Agents And Developer Workflow",
+      "path": "agent-corpus/features/xcode-agents.md"
+    },
+    "swiftui-ui-frameworks": {
+      "title": "SwiftUI And UI Frameworks",
+      "path": "agent-corpus/features/swiftui-ui-frameworks.md"
+    },
+    "swiftdata": {
+      "title": "SwiftData",
+      "path": "agent-corpus/features/swiftdata.md"
+    },
+    "evaluations": {
+      "title": "Evaluations",
+      "path": "agent-corpus/features/evaluations.md"
+    },
+    "agentic-security": {
+      "title": "Agentic Security",
+      "path": "agent-corpus/features/agentic-security.md"
+    },
+    "visual-intelligence": {
+      "title": "Visual Intelligence And Image Understanding",
+      "path": "agent-corpus/features/visual-intelligence.md"
+    },
+    "mlx-local-models": {
+      "title": "MLX And Local Models",
+      "path": "agent-corpus/features/mlx-local-models.md"
+    },
+    "performance-observability": {
+      "title": "Performance And Observability",
+      "path": "agent-corpus/features/performance-observability.md"
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "path": "agent-corpus/features/accessibility.md"
+    }
+  },
+  "topics": {
+    "AI & Machine Learning": {
+      "path": "agent-corpus/topics/ai-machine-learning.md",
+      "sessionIds": [
+        "wwdc2026-8011",
+        "wwdc2026-339",
+        "wwdc2026-242",
+        "wwdc2026-334",
+        "wwdc2026-8121",
+        "wwdc2026-375",
+        "wwdc2026-299",
+        "wwdc2026-243",
+        "wwdc2026-325",
+        "wwdc2026-233",
+        "wwdc2026-335",
+        "wwdc2026-326",
+        "wwdc2026-246",
+        "wwdc2026-8016",
+        "wwdc2026-324",
+        "wwdc2026-298",
+        "wwdc2026-232",
+        "wwdc2026-295",
+        "wwdc2026-241",
+        "wwdc2026-253",
+        "wwdc2026-213",
+        "wwdc2026-227",
+        "wwdc2026-356",
+        "wwdc2026-359",
+        "wwdc2026-357",
+        "wwdc2026-234",
+        "wwdc2026-347",
+        "wwdc2026-328",
+        "wwdc2026-310",
+        "wwdc2026-297",
+        "wwdc2026-240",
+        "wwdc2026-344",
+        "wwdc2026-345",
+        "wwdc2026-343",
+        "wwdc2026-237",
+        "wwdc2026-330",
+        "wwdc2026-319",
+        "wwdc2025-277",
+        "wwdc2025-259",
+        "wwdc2025-301"
+      ]
+    },
+    "Accessibility & Inclusion": {
+      "path": "agent-corpus/topics/accessibility-inclusion.md",
+      "sessionIds": [
+        "wwdc2026-8005",
+        "wwdc2026-256",
+        "wwdc2026-250",
+        "wwdc2026-221",
+        "wwdc2026-219",
+        "wwdc2026-220",
+        "wwdc2025-238",
+        "wwdc2025-224",
+        "wwdc2025-229",
+        "wwdc2025-316"
+      ]
+    },
+    "App Services": {
+      "path": "agent-corpus/topics/app-services.md",
+      "sessionIds": [
+        "wwdc2026-8017",
+        "wwdc2026-297",
+        "wwdc2026-240",
+        "wwdc2026-344",
+        "wwdc2026-345",
+        "wwdc2026-343",
+        "wwdc2026-237",
+        "wwdc2026-309",
+        "wwdc2026-378",
+        "wwdc2026-210",
+        "wwdc2026-201",
+        "wwdc2026-230",
+        "wwdc2026-269",
+        "wwdc2026-205",
+        "wwdc2026-8014",
+        "wwdc2026-271",
+        "wwdc2026-370",
+        "wwdc2026-272",
+        "wwdc2026-275",
+        "wwdc2026-274",
+        "wwdc2026-223",
+        "wwdc2026-203",
+        "wwdc2026-372",
+        "wwdc2026-226",
+        "wwdc2026-209",
+        "wwdc2025-285",
+        "wwdc2025-230",
+        "wwdc2025-322",
+        "wwdc2025-293",
+        "wwdc2025-236",
+        "wwdc2025-233",
+        "wwdc2025-223",
+        "wwdc2025-291",
+        "wwdc2025-241",
+        "wwdc2025-225",
+        "wwdc2025-231",
+        "wwdc2025-222"
+      ]
+    },
+    "App Store, Distribution & Marketing": {
+      "path": "agent-corpus/topics/app-store-distribution-marketing.md",
+      "sessionIds": [
+        "wwdc2026-309",
+        "wwdc2026-378",
+        "wwdc2026-210",
+        "wwdc2026-201",
+        "wwdc2026-205",
+        "wwdc2026-8010",
+        "wwdc2026-206",
+        "wwdc2026-216",
+        "wwdc2026-391",
+        "wwdc2025-328",
+        "wwdc2025-241"
+      ]
+    },
+    "Audio & Video": {
+      "path": "agent-corpus/topics/audio-video.md",
+      "sessionIds": [
+        "wwdc2026-253",
+        "wwdc2026-256",
+        "wwdc2026-312",
+        "wwdc2026-221",
+        "wwdc2026-303",
+        "wwdc2026-338",
+        "wwdc2026-254",
+        "wwdc2025-317",
+        "wwdc2025-304",
+        "wwdc2025-403",
+        "wwdc2025-318",
+        "wwdc2025-296",
+        "wwdc2025-251"
+      ]
+    },
+    "Business & Education": {
+      "path": "agent-corpus/topics/business-education.md",
+      "sessionIds": [
+        "wwdc2026-201",
+        "wwdc2026-230",
+        "wwdc2026-206",
+        "wwdc2026-391",
+        "wwdc2026-379",
+        "wwdc2025-223",
+        "wwdc2025-317",
+        "wwdc2025-258"
+      ]
+    },
+    "Design": {
+      "path": "agent-corpus/topics/design.md",
+      "sessionIds": [
+        "wwdc2026-227",
+        "wwdc2026-234",
+        "wwdc2026-250",
+        "wwdc2026-269",
+        "wwdc2026-251",
+        "wwdc2026-290",
+        "wwdc2026-8012",
+        "wwdc2026-314",
+        "wwdc2026-315",
+        "wwdc2026-322",
+        "wwdc2026-321",
+        "wwdc2026-252",
+        "wwdc2026-292",
+        "wwdc2025-281",
+        "wwdc2025-316",
+        "wwdc2025-317",
+        "wwdc2025-304",
+        "wwdc2025-248",
+        "wwdc2025-305",
+        "wwdc2025-274",
+        "wwdc2025-273",
+        "wwdc2025-290",
+        "wwdc2025-247",
+        "wwdc2025-323",
+        "wwdc2025-284",
+        "wwdc2025-303",
+        "wwdc2025-255",
+        "wwdc2025-361",
+        "wwdc2025-208",
+        "wwdc2025-356",
+        "wwdc2025-219",
+        "wwdc2025-220",
+        "wwdc2025-337"
+      ]
+    },
+    "Developer Tools": {
+      "path": "agent-corpus/topics/developer-tools.md",
+      "sessionIds": [
+        "wwdc2026-213",
+        "wwdc2026-227",
+        "wwdc2026-205",
+        "wwdc2026-8007",
+        "wwdc2026-8013",
+        "wwdc2026-388",
+        "wwdc2026-252",
+        "wwdc2026-265",
+        "wwdc2026-267",
+        "wwdc2026-262",
+        "wwdc2026-222",
+        "wwdc2026-261",
+        "wwdc2026-260",
+        "wwdc2026-268",
+        "wwdc2026-258",
+        "wwdc2026-259",
+        "wwdc2026-389",
+        "wwdc2025-308",
+        "wwdc2025-247",
+        "wwdc2025-225",
+        "wwdc2025-256",
+        "wwdc2025-344",
+        "wwdc2025-306",
+        "wwdc2025-226"
+      ]
+    },
+    "Essentials": {
+      "path": "agent-corpus/topics/essentials.md",
+      "sessionIds": [
+        "wwdc2026-121",
+        "wwdc2026-397",
+        "wwdc2026-398",
+        "wwdc2026-394",
+        "wwdc2026-101",
+        "wwdc2026-111",
+        "wwdc2026-102",
+        "wwdc2026-112",
+        "wwdc2026-122",
+        "wwdc2026-292",
+        "wwdc2025-316",
+        "wwdc2025-256",
+        "wwdc2025-360"
+      ]
+    },
+    "Graphics & Games": {
+      "path": "agent-corpus/topics/graphics-games.md",
+      "sessionIds": [
+        "wwdc2026-356",
+        "wwdc2026-359",
+        "wwdc2026-357",
+        "wwdc2026-234",
+        "wwdc2026-388",
+        "wwdc2026-252",
+        "wwdc2026-358",
+        "wwdc2026-330",
+        "wwdc2026-287",
+        "wwdc2026-284",
+        "wwdc2026-282",
+        "wwdc2026-279",
+        "wwdc2026-283",
+        "wwdc2026-281",
+        "wwdc2026-280",
+        "wwdc2026-393",
+        "wwdc2026-286",
+        "wwdc2026-285",
+        "wwdc2025-308",
+        "wwdc2025-317",
+        "wwdc2025-305",
+        "wwdc2025-289",
+        "wwdc2025-294",
+        "wwdc2025-287"
+      ]
+    },
+    "Health & Fitness": {
+      "path": "agent-corpus/topics/health-fitness.md",
+      "sessionIds": [
+        "wwdc2026-8014",
+        "wwdc2026-207",
+        "wwdc2025-322",
+        "wwdc2025-334"
+      ]
+    },
+    "Maps & Location": {
+      "path": "agent-corpus/topics/maps-location.md",
+      "sessionIds": [
+        "wwdc2025-334",
+        "wwdc2025-204"
+      ]
+    },
+    "Photos & Camera": {
+      "path": "agent-corpus/topics/photos-camera.md",
+      "sessionIds": [
+        "wwdc2026-303",
+        "wwdc2026-8018",
+        "wwdc2026-305",
+        "wwdc2026-304",
+        "wwdc2026-341",
+        "wwdc2025-317",
+        "wwdc2025-251"
+      ]
+    },
+    "Privacy & Security": {
+      "path": "agent-corpus/topics/privacy-security.md",
+      "sessionIds": [
+        "wwdc2026-347",
+        "wwdc2026-201",
+        "wwdc2026-379",
+        "wwdc2026-8009",
+        "wwdc2025-293",
+        "wwdc2025-246",
+        "wwdc2025-279",
+        "wwdc2025-243",
+        "wwdc2025-228",
+        "wwdc2025-299",
+        "wwdc2025-314"
+      ]
+    },
+    "Safari & Web": {
+      "path": "agent-corpus/topics/safari-web.md",
+      "sessionIds": [
+        "wwdc2026-216",
+        "wwdc2026-314",
+        "wwdc2026-315",
+        "wwdc2026-8015",
+        "wwdc2026-320",
+        "wwdc2026-215",
+        "wwdc2026-204",
+        "wwdc2025-236",
+        "wwdc2025-233",
+        "wwdc2025-317",
+        "wwdc2025-231",
+        "wwdc2025-237"
+      ]
+    },
+    "Spatial Computing": {
+      "path": "agent-corpus/topics/spatial-computing.md",
+      "sessionIds": [
+        "wwdc2026-234",
+        "wwdc2026-252",
+        "wwdc2026-287",
+        "wwdc2026-284",
+        "wwdc2026-282",
+        "wwdc2026-279",
+        "wwdc2026-283",
+        "wwdc2026-281",
+        "wwdc2026-280",
+        "wwdc2026-393",
+        "wwdc2026-286",
+        "wwdc2026-8004",
+        "wwdc2026-338",
+        "wwdc2026-285",
+        "wwdc2026-320",
+        "wwdc2026-215",
+        "wwdc2025-223",
+        "wwdc2025-317",
+        "wwdc2025-304",
+        "wwdc2025-403",
+        "wwdc2025-318",
+        "wwdc2025-296",
+        "wwdc2025-251",
+        "wwdc2025-305",
+        "wwdc2025-274",
+        "wwdc2025-273",
+        "wwdc2025-290",
+        "wwdc2025-256",
+        "wwdc2025-289",
+        "wwdc2025-294",
+        "wwdc2025-287",
+        "wwdc2025-303",
+        "wwdc2025-237",
+        "wwdc2025-255"
+      ]
+    },
+    "Swift": {
+      "path": "agent-corpus/topics/swift.md",
+      "sessionIds": [
+        "wwdc2026-328",
+        "wwdc2026-265",
+        "wwdc2026-267",
+        "wwdc2026-262",
+        "wwdc2026-8001",
+        "wwdc2026-254",
+        "wwdc2026-261",
+        "wwdc2026-260",
+        "wwdc2026-268",
+        "wwdc2026-258",
+        "wwdc2026-259",
+        "wwdc2026-275",
+        "wwdc2026-274",
+        "wwdc2026-389",
+        "wwdc2025-291",
+        "wwdc2025-247",
+        "wwdc2025-344",
+        "wwdc2025-280",
+        "wwdc2025-306",
+        "wwdc2025-266"
+      ]
+    },
+    "SwiftUI & UI Frameworks": {
+      "path": "agent-corpus/topics/swiftui-ui-frameworks.md",
+      "sessionIds": [
+        "wwdc2026-269",
+        "wwdc2026-8014",
+        "wwdc2026-271",
+        "wwdc2026-370",
+        "wwdc2026-272",
+        "wwdc2026-322",
+        "wwdc2026-321",
+        "wwdc2026-275",
+        "wwdc2026-274",
+        "wwdc2026-289",
+        "wwdc2026-278",
+        "wwdc2026-8002",
+        "wwdc2026-8006",
+        "wwdc2026-8120",
+        "wwdc2026-277",
+        "wwdc2026-219",
+        "wwdc2026-220",
+        "wwdc2026-223",
+        "wwdc2026-203",
+        "wwdc2026-372",
+        "wwdc2026-207",
+        "wwdc2026-204",
+        "wwdc2025-317",
+        "wwdc2025-274",
+        "wwdc2025-273",
+        "wwdc2025-290",
+        "wwdc2025-247",
+        "wwdc2025-323",
+        "wwdc2025-284",
+        "wwdc2025-256",
+        "wwdc2025-334",
+        "wwdc2025-243",
+        "wwdc2025-231",
+        "wwdc2025-255",
+        "wwdc2025-280",
+        "wwdc2025-306",
+        "wwdc2025-313",
+        "wwdc2025-310",
+        "wwdc2025-282",
+        "wwdc2025-278"
+      ]
+    },
+    "System Services": {
+      "path": "agent-corpus/topics/system-services.md",
+      "sessionIds": [
+        "wwdc2026-310",
+        "wwdc2026-222",
+        "wwdc2026-389",
+        "wwdc2026-224",
+        "wwdc2026-369",
+        "wwdc2026-8003",
+        "wwdc2026-212",
+        "wwdc2026-319",
+        "wwdc2026-226",
+        "wwdc2026-209",
+        "wwdc2025-228",
+        "wwdc2025-234",
+        "wwdc2025-226",
+        "wwdc2025-299",
+        "wwdc2025-314"
+      ]
+    }
+  },
+  "prioritySessions": {
+    "wwdc2026-233": {
+      "title": "Explore Distributed Inference And Training With MLX",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-233-explore-distributed-inference-and-training-with-mlx.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/233/",
+      "topics": [
+        "AI & Machine Learning"
+      ],
+      "researchPriority": "P1",
+      "researchWave": "App Intelligence"
+    },
+    "wwdc2026-232": {
+      "title": "Run Local Agentic AI On The Mac Using MLX",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-232-run-local-agentic-ai-on-the-mac-using-mlx.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/232/",
+      "topics": [
+        "AI & Machine Learning"
+      ],
+      "researchPriority": "P0",
+      "researchWave": "App Intelligence"
+    },
+    "wwdc2026-295": {
+      "title": "Validate Your App Intents Adoption With AppIntentsTesting",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-295-validate-your-app-intents-adoption-with-appintentstesting.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/295/",
+      "topics": [
+        "AI & Machine Learning"
+      ],
+      "researchPriority": "P0",
+      "researchWave": "Developer Workflow"
+    },
+    "wwdc2026-357": {
+      "title": "Speedrun Your Game Port With Agentic Coding",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-357-speedrun-your-game-port-with-agentic-coding.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/357/",
+      "topics": [
+        "AI & Machine Learning",
+        "Graphics & Games"
+      ],
+      "researchPriority": "P1",
+      "researchWave": "Developer Workflow"
+    },
+    "wwdc2026-328": {
+      "title": "Explore Numerical Computing In Swift With MLX",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-328-explore-numerical-computing-in-swift-with-mlx.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/328/",
+      "topics": [
+        "AI & Machine Learning",
+        "Swift"
+      ],
+      "researchPriority": "P1",
+      "researchWave": "App Intelligence"
+    },
+    "wwdc2026-310": {
+      "title": "What's New In Shortcuts",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-310-what-s-new-in-shortcuts.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/310/",
+      "topics": [
+        "AI & Machine Learning",
+        "System Services"
+      ],
+      "researchPriority": "P0",
+      "researchWave": "App Intelligence"
+    },
+    "wwdc2026-256": {
+      "title": "Discover Generated Subtitles And Subtitle Styles",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-256-discover-generated-subtitles-and-subtitle-styles.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/256/",
+      "topics": [
+        "Accessibility & Inclusion",
+        "Audio & Video"
+      ],
+      "researchPriority": "P1",
+      "researchWave": "Accessibility And Media"
+    },
+    "wwdc2026-250": {
+      "title": "Principles Of Great Design",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-250-principles-of-great-design.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/250/",
+      "topics": [
+        "Accessibility & Inclusion",
+        "Design"
+      ],
+      "researchPriority": "P0",
+      "researchWave": "Platform UI"
+    },
+    "wwdc2026-216": {
+      "title": "Create Web Extensions For Safari",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-216-create-web-extensions-for-safari.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/216/",
+      "topics": [
+        "App Store, Distribution & Marketing",
+        "Safari & Web"
+      ],
+      "researchPriority": "P2",
+      "researchWave": "Safari And Web"
+    },
+    "wwdc2026-312": {
+      "title": "Meet The Now Playing Framework",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-312-meet-the-now-playing-framework.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/312/",
+      "topics": [
+        "Audio & Video"
+      ],
+      "researchPriority": "P1",
+      "researchWave": "System Frameworks"
+    },
+    "wwdc2026-221": {
+      "title": "Prepare Your tvOS Apps For Dynamic Type",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-221-prepare-your-tvos-apps-for-dynamic-type.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/221/",
+      "topics": [
+        "Audio & Video",
+        "Accessibility & Inclusion"
+      ],
+      "researchPriority": "P0",
+      "researchWave": "Platform UI"
+    },
+    "wwdc2026-303": {
+      "title": "Build A Responsive Camera App That Launches Quickly",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-303-build-a-responsive-camera-app-that-launches-quickly.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/303/",
+      "topics": [
+        "Audio & Video",
+        "Photos & Camera"
+      ],
+      "researchPriority": "P1",
+      "researchWave": "System Frameworks"
+    },
+    "wwdc2026-314": {
+      "title": "Learn CSS Grid Lanes",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-314-learn-css-grid-lanes.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/314/",
+      "topics": [
+        "Design",
+        "Safari & Web"
+      ],
+      "researchPriority": "P2",
+      "researchWave": "Safari And Web"
+    },
+    "wwdc2026-315": {
+      "title": "Rediscover The HTML Select Element",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-315-rediscover-the-html-select-element.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/315/",
+      "topics": [
+        "Design",
+        "Safari & Web"
+      ],
+      "researchPriority": "P2",
+      "researchWave": "Safari And Web"
+    },
+    "wwdc2026-388": {
+      "title": "Find And Fix Performance Issues In Your Metal Games",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-388-find-and-fix-performance-issues-in-your-metal-games.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/388/",
+      "topics": [
+        "Developer Tools",
+        "Graphics & Games"
+      ],
+      "researchPriority": "P1",
+      "researchWave": "Developer Workflow"
+    },
+    "wwdc2026-265": {
+      "title": "Build Real-Time Apps And Services With gRPC And Swift",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-265-build-real-time-apps-and-services-with-grpc-and-swift.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/265/",
+      "topics": [
+        "Developer Tools",
+        "Swift"
+      ],
+      "researchPriority": "P1",
+      "researchWave": "System Frameworks"
+    },
+    "wwdc2026-262": {
+      "title": "What's New In Swift",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-262-what-s-new-in-swift.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/262/",
+      "topics": [
+        "Developer Tools",
+        "Swift"
+      ],
+      "researchPriority": "P0",
+      "researchWave": "Developer Workflow"
+    },
+    "wwdc2026-292": {
+      "title": "Design Intuitive Search Experiences",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-292-design-intuitive-search-experiences.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/292/",
+      "topics": [
+        "Essentials",
+        "Design"
+      ],
+      "researchPriority": "P0",
+      "researchWave": "Platform UI"
+    },
+    "wwdc2026-330": {
+      "title": "Optimize Custom Machine Learning Operations With Metal Tensors",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-330-optimize-custom-machine-learning-operations-with-metal-tensors.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/330/",
+      "topics": [
+        "Graphics & Games",
+        "AI & Machine Learning"
+      ],
+      "researchPriority": "P1",
+      "researchWave": "App Intelligence"
+    },
+    "wwdc2026-305": {
+      "title": "Enhance Raw Image Processing With Core Image",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-305-enhance-raw-image-processing-with-core-image.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/305/",
+      "topics": [
+        "Photos & Camera"
+      ],
+      "researchPriority": "P1",
+      "researchWave": "System Frameworks"
+    },
+    "wwdc2026-215": {
+      "title": "Get Started With The HTML Model Element",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-215-get-started-with-the-html-model-element.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/215/",
+      "topics": [
+        "Spatial Computing",
+        "Safari & Web"
+      ],
+      "researchPriority": "P2",
+      "researchWave": "Safari And Web"
+    },
+    "wwdc2026-389": {
+      "title": "Discover Container Machines",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-389-discover-container-machines.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/389/",
+      "topics": [
+        "Swift",
+        "System Services",
+        "Developer Tools"
+      ],
+      "researchPriority": "P1",
+      "researchWave": "Developer Workflow"
+    },
+    "wwdc2026-319": {
+      "title": "Build With The New Apple Foundation Model On Private Cloud Compute",
+      "coverage": "deep-researched",
+      "path": "agent-corpus/sessions/wwdc2026-319-build-with-the-new-apple-foundation-model-on-private-cloud-compute.md",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/319/",
+      "topics": [
+        "System Services",
+        "AI & Machine Learning"
+      ],
+      "researchPriority": "P0",
+      "researchWave": "App Intelligence"
+    }
+  },
+  "lookupFiles": {
+    "fullSessionLookup": "agent-corpus/session-lookup.json",
+    "fullConceptRoutes": "agent-corpus/concept-routes.json",
+    "manifest": "agent-corpus/manifest.json"
+  },
+  "hotConceptRoutes": {
+    "appintentstesting": {
+      "aliases": [
+        "appintentstesting",
+        "app intents testing",
+        "validate app intents"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-295",
+          "title": "Validate Your App Intents Adoption With AppIntentsTesting",
+          "path": "agent-corpus/sessions/wwdc2026-295-validate-your-app-intents-adoption-with-appintentstesting.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/295/"
+        },
+        {
+          "id": "wwdc2026-240",
+          "title": "Build Intelligent Siri Experiences With App Schemas",
+          "path": "agent-corpus/sessions/wwdc2026-240-build-intelligent-siri-experiences-with-app-schemas.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/240/"
+        },
+        {
+          "id": "wwdc2026-344",
+          "title": "Code-Along: Make Your App Available To Siri",
+          "path": "agent-corpus/sessions/wwdc2026-344-code-along-make-your-app-available-to-siri.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/344/"
+        }
+      ]
+    },
+    "plan-mode": {
+      "aliases": [
+        "plan mode",
+        "/plan",
+        "planning in xcode agents"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-259",
+          "title": "Xcode, Agents, And You",
+          "path": "agent-corpus/sessions/wwdc2026-259-xcode-agents-and-you.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/259/"
+        },
+        {
+          "id": "wwdc2026-258",
+          "title": "What's New In Xcode 27",
+          "path": "agent-corpus/sessions/wwdc2026-258-what-s-new-in-xcode-27.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/258/"
+        },
+        {
+          "id": "wwdc2026-303",
+          "title": "Build A Responsive Camera App That Launches Quickly",
+          "path": "agent-corpus/sessions/wwdc2026-303-build-a-responsive-camera-app-that-launches-quickly.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/303/"
+        }
+      ]
+    },
+    "prompt-injection": {
+      "aliases": [
+        "prompt injection",
+        "indirect prompt injection",
+        "agentic security"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-347",
+          "title": "Secure Your App: Mitigate Risks To Agentic Features",
+          "path": "agent-corpus/sessions/wwdc2026-347-secure-your-app-mitigate-risks-to-agentic-features.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/347/"
+        },
+        {
+          "id": "wwdc2026-303",
+          "title": "Build A Responsive Camera App That Launches Quickly",
+          "path": "agent-corpus/sessions/wwdc2026-303-build-a-responsive-camera-app-that-launches-quickly.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/303/"
+        },
+        {
+          "id": "wwdc2026-265",
+          "title": "Build Real-Time Apps And Services With gRPC And Swift",
+          "path": "agent-corpus/sessions/wwdc2026-265-build-real-time-apps-and-services-with-grpc-and-swift.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/265/"
+        }
+      ]
+    },
+    "spotlight-search-tool": {
+      "aliases": [
+        "spotlightsearchtool",
+        "spotlight search tool",
+        "llm search",
+        "core spotlight"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-246",
+          "title": "LLM Search Using Core Spotlight",
+          "path": "agent-corpus/sessions/wwdc2026-246-llm-search-using-core-spotlight.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/246/"
+        },
+        {
+          "id": "wwdc2026-343",
+          "title": "Explore Advanced App Intents Features For Siri And Apple Intelligence",
+          "path": "agent-corpus/sessions/wwdc2026-343-explore-advanced-app-intents-features-for-siri-and-apple-intelligence.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/343/"
+        },
+        {
+          "id": "wwdc2026-241",
+          "title": "What's New In The Foundation Models Framework",
+          "path": "agent-corpus/sessions/wwdc2026-241-what-s-new-in-the-foundation-models-framework.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/241/"
+        }
+      ]
+    },
+    "languagemodelsession": {
+      "aliases": [
+        "languagemodelsession",
+        "language model session",
+        "foundation models session"
+      ],
+      "best": [
+        {
+          "id": "wwdc2025-301",
+          "title": "Deep Dive Into The Foundation Models Framework",
+          "path": "agent-corpus/sessions/wwdc2025-301-deep-dive-into-the-foundation-models-framework.md",
+          "coverage": "metadata-only",
+          "url": "https://developer.apple.com/videos/play/wwdc2025/301/"
+        },
+        {
+          "id": "wwdc2026-243",
+          "title": "Debug And Profile Agentic App Experiences With Instruments",
+          "path": "agent-corpus/sessions/wwdc2026-243-debug-and-profile-agentic-app-experiences-with-instruments.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/243/"
+        },
+        {
+          "id": "wwdc2026-339",
+          "title": "Bring An LLM Provider To The Foundation Models Framework",
+          "path": "agent-corpus/sessions/wwdc2026-339-bring-an-llm-provider-to-the-foundation-models-framework.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/339/"
+        }
+      ]
+    },
+    "string-catalogs": {
+      "aliases": [
+        "string catalogs",
+        "stringcatalogs",
+        "translation in xcode"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-213",
+          "title": "Translate Your App Using Agents In Xcode",
+          "path": "agent-corpus/sessions/wwdc2026-213-translate-your-app-using-agents-in-xcode.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/213/"
+        },
+        {
+          "id": "wwdc2026-258",
+          "title": "What's New In Xcode 27",
+          "path": "agent-corpus/sessions/wwdc2026-258-what-s-new-in-xcode-27.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/258/"
+        },
+        {
+          "id": "wwdc2026-303",
+          "title": "Build A Responsive Camera App That Launches Quickly",
+          "path": "agent-corpus/sessions/wwdc2026-303-build-a-responsive-camera-app-that-launches-quickly.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/303/"
+        }
+      ]
+    },
+    "swiftdata-query-sectioning": {
+      "aliases": [
+        "sectionby",
+        "sectioned query",
+        "swiftdata query",
+        "swiftdata sectioning"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-274",
+          "title": "What's New In Swiftdata",
+          "path": "agent-corpus/sessions/wwdc2026-274-what-s-new-in-swiftdata.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/274/"
+        },
+        {
+          "id": "wwdc2026-303",
+          "title": "Build A Responsive Camera App That Launches Quickly",
+          "path": "agent-corpus/sessions/wwdc2026-303-build-a-responsive-camera-app-that-launches-quickly.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/303/"
+        },
+        {
+          "id": "wwdc2026-265",
+          "title": "Build Real-Time Apps And Services With gRPC And Swift",
+          "path": "agent-corpus/sessions/wwdc2026-265-build-real-time-apps-and-services-with-grpc-and-swift.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/265/"
+        }
+      ]
+    },
+    "private-cloud-compute": {
+      "aliases": [
+        "private cloud compute",
+        "pcc",
+        "server model"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-242",
+          "title": "Build Agentic App Experiences With The Foundation Models Framework",
+          "path": "agent-corpus/sessions/wwdc2026-242-build-agentic-app-experiences-with-the-foundation-models-framework.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/242/"
+        },
+        {
+          "id": "wwdc2026-319",
+          "title": "Build With The New Apple Foundation Model On Private Cloud Compute",
+          "path": "agent-corpus/sessions/wwdc2026-319-build-with-the-new-apple-foundation-model-on-private-cloud-compute.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/319/"
+        },
+        {
+          "id": "wwdc2026-241",
+          "title": "What's New In The Foundation Models Framework",
+          "path": "agent-corpus/sessions/wwdc2026-241-what-s-new-in-the-foundation-models-framework.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/241/"
+        }
+      ]
+    },
+    "mlx-local-agents": {
+      "aliases": [
+        "local agentic ai",
+        "mlx local",
+        "opencode",
+        "local mlx agents"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-232",
+          "title": "Run Local Agentic AI On The Mac Using MLX",
+          "path": "agent-corpus/sessions/wwdc2026-232-run-local-agentic-ai-on-the-mac-using-mlx.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/232/"
+        },
+        {
+          "id": "wwdc2025-315",
+          "title": "Get Started With MLX For Apple Silicon",
+          "path": "agent-corpus/sessions/wwdc2025-315-get-started-with-mlx-for-apple-silicon.md",
+          "coverage": "metadata-only",
+          "url": "https://developer.apple.com/videos/play/wwdc2025/315/"
+        },
+        {
+          "id": "wwdc2026-303",
+          "title": "Build A Responsive Camera App That Launches Quickly",
+          "path": "agent-corpus/sessions/wwdc2026-303-build-a-responsive-camera-app-that-launches-quickly.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/303/"
+        }
+      ]
+    },
+    "device-hub": {
+      "aliases": [
+        "device hub",
+        "devicectl",
+        "simulators and devices"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-260",
+          "title": "Get The Most Out Of Device Hub",
+          "path": "agent-corpus/sessions/wwdc2026-260-get-the-most-out-of-device-hub.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/260/"
+        },
+        {
+          "id": "wwdc2026-278",
+          "title": "Modernize Your UIKit App",
+          "path": "agent-corpus/sessions/wwdc2026-278-modernize-your-uikit-app.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/278/"
+        },
+        {
+          "id": "wwdc2026-258",
+          "title": "What's New In Xcode 27",
+          "path": "agent-corpus/sessions/wwdc2026-258-what-s-new-in-xcode-27.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/258/"
+        }
+      ]
+    },
+    "swift-testing": {
+      "aliases": [
+        "swift testing",
+        "#expect",
+        "#require",
+        "migrate to swift testing"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-267",
+          "title": "Migrate To Swift Testing",
+          "path": "agent-corpus/sessions/wwdc2026-267-migrate-to-swift-testing.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/267/"
+        },
+        {
+          "id": "wwdc2026-262",
+          "title": "What's New In Swift",
+          "path": "agent-corpus/sessions/wwdc2026-262-what-s-new-in-swift.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/262/"
+        },
+        {
+          "id": "wwdc2026-335",
+          "title": "Improve Your Prompts By Hill-Climbing With Evaluations",
+          "path": "agent-corpus/sessions/wwdc2026-335-improve-your-prompts-by-hill-climbing-with-evaluations.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/335/"
+        }
+      ]
+    },
+    "xcode-cloud": {
+      "aliases": [
+        "xcode cloud",
+        "testflight distribution",
+        "cloud workflows"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-261",
+          "title": "Build, Deliver, And Automate With Xcode Cloud",
+          "path": "agent-corpus/sessions/wwdc2026-261-build-deliver-and-automate-with-xcode-cloud.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/261/"
+        },
+        {
+          "id": "wwdc2026-267",
+          "title": "Migrate To Swift Testing",
+          "path": "agent-corpus/sessions/wwdc2026-267-migrate-to-swift-testing.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/267/"
+        },
+        {
+          "id": "wwdc2026-258",
+          "title": "What's New In Xcode 27",
+          "path": "agent-corpus/sessions/wwdc2026-258-what-s-new-in-xcode-27.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/258/"
+        }
+      ]
+    },
+    "foundation-models-tools": {
+      "aliases": [
+        "tool calling",
+        "foundation models tools",
+        "agentic app experiences"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-242",
+          "title": "Build Agentic App Experiences With The Foundation Models Framework",
+          "path": "agent-corpus/sessions/wwdc2026-242-build-agentic-app-experiences-with-the-foundation-models-framework.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/242/"
+        },
+        {
+          "id": "wwdc2026-243",
+          "title": "Debug And Profile Agentic App Experiences With Instruments",
+          "path": "agent-corpus/sessions/wwdc2026-243-debug-and-profile-agentic-app-experiences-with-instruments.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/243/"
+        },
+        {
+          "id": "wwdc2026-232",
+          "title": "Run Local Agentic AI On The Mac Using MLX",
+          "path": "agent-corpus/sessions/wwdc2026-232-run-local-agentic-ai-on-the-mac-using-mlx.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/232/"
+        }
+      ]
+    },
+    "evaluations": {
+      "aliases": [
+        "evaluations framework",
+        "hill-climbing",
+        "agentic evaluations"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-299",
+          "title": "Create Robust Evaluations For Agentic Apps",
+          "path": "agent-corpus/sessions/wwdc2026-299-create-robust-evaluations-for-agentic-apps.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/299/"
+        },
+        {
+          "id": "wwdc2026-298",
+          "title": "Meet The Evaluations Framework",
+          "path": "agent-corpus/sessions/wwdc2026-298-meet-the-evaluations-framework.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/298/"
+        },
+        {
+          "id": "wwdc2026-335",
+          "title": "Improve Your Prompts By Hill-Climbing With Evaluations",
+          "path": "agent-corpus/sessions/wwdc2026-335-improve-your-prompts-by-hill-climbing-with-evaluations.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/335/"
+        }
+      ]
+    },
+    "metric-kit": {
+      "aliases": [
+        "metrickit",
+        "metric kit",
+        "state reporting",
+        "statereporting"
+      ],
+      "best": [
+        {
+          "id": "wwdc2026-388",
+          "title": "Find And Fix Performance Issues In Your Metal Games",
+          "path": "agent-corpus/sessions/wwdc2026-388-find-and-fix-performance-issues-in-your-metal-games.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/388/"
+        },
+        {
+          "id": "wwdc2026-222",
+          "title": "Meet The New Metrickit",
+          "path": "agent-corpus/sessions/wwdc2026-222-meet-the-new-metrickit.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/222/"
+        },
+        {
+          "id": "wwdc2025-226",
+          "title": "Profile And Optimize Power Usage In Your App",
+          "path": "agent-corpus/sessions/wwdc2025-226-profile-and-optimize-power-usage-in-your-app.md",
+          "coverage": "deep-researched",
+          "url": "https://developer.apple.com/videos/play/wwdc2025/226/"
+        }
+      ]
+    }
+  },
+  "recommendedAgentPath": [
+    "Read llms.txt.",
+    "Use direct routes in llms.txt when they match.",
+    "Use agent-router.json for ambiguous routing or hot concept aliases.",
+    "Open the narrow feature/topic/session page.",
+    "Check coverage before making strong claims.",
+    "Follow Apple source links for exact API details."
+  ]
+}
